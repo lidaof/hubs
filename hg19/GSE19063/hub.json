@@ -1,0 +1,55 @@
+# following are comments
+# a comment line must starts with # at the beginning of the line
+#
+# you can include tracks, metadata vocabulary, and gene sets in this file
+# all instances will be defined as "json objects" (http://www.json.org/)
+# every object must be enclosed inside { }, and followed by a comma
+# every object must contain the "type" attribute so as to identify its type
+# the entire hub is enclosed inside [ ]
+#
+# About color:
+# please code them as 'rgb(255,0,0)' or '#ff0000', verbal names (e.g. 'red') are not supported at the moment
+# transparency is not supported at the moment
+
+
+
+# outmost enclosure
+[
+
+# a read-alignment track (BAM)
+{type:"bam",url:"http://vizhub.wustl.edu/public/hg19/GSE19063/SRR039129.fastq.clean.filtered.bam",name:"SRR039129.fastq.clean.filtered.bam",mode:"density", custom_annotation:["RD","pFM2","1"], colorpositive:"#990000", colorforward:"#FF850A",colorreverse:"#850AFF",colormismatch:"#FFFF00" },
+{type:"bam",url:"http://vizhub.wustl.edu/public/hg19/GSE19063/SRR039130.fastq.clean.filtered.bam",name:"SRR039130.fastq.clean.filtered.bam",mode:"density", custom_annotation:["RD","Input","NA"], colorpositive:"#990000", colorforward:"#FF850A",colorreverse:"#850AFF",colormismatch:"#FFFF00" },
+{type:"bam",url:"http://vizhub.wustl.edu/public/hg19/GSE19063/SRR039131.fastq.clean.filtered.bam",name:"SRR039131.fastq.clean.filtered.bam",mode:"density", custom_annotation:["Rh4","Input","NA"], colorpositive:"#990000", colorforward:"#FF850A",colorreverse:"#850AFF",colormismatch:"#FFFF00" },
+{type:"bam",url:"http://vizhub.wustl.edu/public/hg19/GSE19063/SRR039132.fastq.clean.filtered.bam",name:"SRR039132.fastq.clean.filtered.bam",mode:"density", custom_annotation:["Rh4","pFM2","NA"], colorpositive:"#990000", colorforward:"#FF850A",colorreverse:"#850AFF",colormismatch:"#FFFF00" },
+{type:"bam",url:"http://vizhub.wustl.edu/public/hg19/GSE19063/SRR039133.fastq.clean.filtered.bam",name:"SRR039133.fastq.clean.filtered.bam",mode:"density", custom_annotation:["RD","pFM2","2"], colorpositive:"#990000", colorforward:"#FF850A",colorreverse:"#850AFF",colormismatch:"#FFFF00" },
+{type:"bam",url:"http://vizhub.wustl.edu/public/hg19/GSE19063/SRR039134.fastq.clean.filtered.bam",name:"SRR039134.fastq.clean.filtered.bam",mode:"density", custom_annotation:["Rh4","Input","2"], colorpositive:"#990000", colorforward:"#FF850A",colorreverse:"#850AFF",colormismatch:"#FFFF00" },
+{type:"bam",url:"http://vizhub.wustl.edu/public/hg19/GSE19063/SRR039135.fastq.clean.filtered.bam",name:"SRR039135.fastq.clean.filtered.bam",mode:"density", custom_annotation:["Rh4","pFM2","2"], colorpositive:"#990000", colorforward:"#FF850A",colorreverse:"#850AFF",colormismatch:"#FFFF00" },
+
+
+{
+    type:"native_track",list:[
+        {name:"refGene",mode:"full"},
+            {name:"rmsk_ensemble",mode:"show"},
+                ],
+},
+
+{type:"metadata",vocabulary:{
+    "Cell":["RD","Rh4"],
+    "Antibody":["Input","pFM2"],
+    "Lane":["1","2","NA"],
+    },
+    show:["Cell","Antibody","Lane"],
+},
+
+# end of outmost enclosure
+]
+
+
+
+
+### Just a note ###
+#
+# whenever you are using a new version of track file with its old URL,
+# e.g. the track has been displayed on browser before but you updated the track file,
+# you must do "Refresh cache" before the updated track can be shown again
+

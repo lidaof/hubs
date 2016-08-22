@@ -1,0 +1,899 @@
+[
+    {
+        "show_terms": {
+            "Sample": [
+                "Sample"
+            ], 
+            "Assay": [
+                "Assay"
+            ], 
+            "private": [
+                "View", 
+                "Type"
+            ]
+        }, 
+        "vocabulary_set": {
+            "Sample": "http://vizhub.wustl.edu/metadata/human/Samples", 
+            "Donor": "http://vizhub.wustl.edu/metadata/human/Donor", 
+            "Assay": "http://vizhub.wustl.edu/metadata/Experimental_assays", 
+            "Institution": "http://vizhub.wustl.edu/metadata/Institutions", 
+            "private": {
+                "terms": {
+                    "216": [
+                        "E016"
+                    ], 
+                    "217": [
+                        "E017"
+                    ], 
+                    "214": [
+                        "E014"
+                    ], 
+                    "215": [
+                        "E015"
+                    ], 
+                    "212": [
+                        "E012"
+                    ], 
+                    "213": [
+                        "E013"
+                    ], 
+                    "210": [
+                        "E010"
+                    ], 
+                    "211": [
+                        "E011"
+                    ], 
+                    "218": [
+                        "E018"
+                    ], 
+                    "219": [
+                        "E019"
+                    ], 
+                    "24": [
+                        "E004"
+                    ], 
+                    "25": [
+                        "E005"
+                    ], 
+                    "26": [
+                        "E006"
+                    ], 
+                    "27": [
+                        "E007"
+                    ], 
+                    "21": [
+                        "E001"
+                    ], 
+                    "22": [
+                        "E002"
+                    ], 
+                    "23": [
+                        "E003"
+                    ], 
+                    "28": [
+                        "E008"
+                    ], 
+                    "29": [
+                        "E009"
+                    ], 
+                    "289": [
+                        "E091"
+                    ], 
+                    "288": [
+                        "E090"
+                    ], 
+                    "281": [
+                        "E083"
+                    ], 
+                    "280": [
+                        "E082"
+                    ], 
+                    "283": [
+                        "E085"
+                    ], 
+                    "282": [
+                        "E084"
+                    ], 
+                    "285": [
+                        "E087"
+                    ], 
+                    "284": [
+                        "E086"
+                    ], 
+                    "287": [
+                        "E089"
+                    ], 
+                    "286": [
+                        "E088"
+                    ], 
+                    "263": [
+                        "E065"
+                    ], 
+                    "262": [
+                        "E063"
+                    ], 
+                    "261": [
+                        "E062"
+                    ], 
+                    "260": [
+                        "E061"
+                    ], 
+                    "267": [
+                        "E069"
+                    ], 
+                    "266": [
+                        "E068"
+                    ], 
+                    "265": [
+                        "E067"
+                    ], 
+                    "264": [
+                        "E066"
+                    ], 
+                    "269": [
+                        "E071"
+                    ], 
+                    "268": [
+                        "E070"
+                    ], 
+                    "298": [
+                        "E100"
+                    ], 
+                    "299": [
+                        "E101"
+                    ], 
+                    "296": [
+                        "E098"
+                    ], 
+                    "297": [
+                        "E099"
+                    ], 
+                    "294": [
+                        "E096"
+                    ], 
+                    "295": [
+                        "E097"
+                    ], 
+                    "292": [
+                        "E094"
+                    ], 
+                    "293": [
+                        "E095"
+                    ], 
+                    "290": [
+                        "E092"
+                    ], 
+                    "291": [
+                        "E093"
+                    ], 
+                    "310": [
+                        "ImputedHMM"
+                    ], 
+                    "270": [
+                        "E072"
+                    ], 
+                    "271": [
+                        "E073"
+                    ], 
+                    "272": [
+                        "E074"
+                    ], 
+                    "273": [
+                        "E075"
+                    ], 
+                    "274": [
+                        "E076"
+                    ], 
+                    "275": [
+                        "E077"
+                    ], 
+                    "276": [
+                        "E078"
+                    ], 
+                    "277": [
+                        "E079"
+                    ], 
+                    "278": [
+                        "E080"
+                    ], 
+                    "279": [
+                        "E081"
+                    ], 
+                    "245": [
+                        "E045"
+                    ], 
+                    "244": [
+                        "E044"
+                    ], 
+                    "247": [
+                        "E047"
+                    ], 
+                    "246": [
+                        "E046"
+                    ], 
+                    "241": [
+                        "E041"
+                    ], 
+                    "240": [
+                        "E040"
+                    ], 
+                    "243": [
+                        "E043"
+                    ], 
+                    "242": [
+                        "E042"
+                    ], 
+                    "249": [
+                        "E049"
+                    ], 
+                    "248": [
+                        "E048"
+                    ], 
+                    "39": [
+                        "AuxiliaryHMM"
+                    ], 
+                    "38": [
+                        "PrimaryHMM"
+                    ], 
+                    "33": [
+                        "macs2signal_pval"
+                    ], 
+                    "32": [
+                        "Signal"
+                    ], 
+                    "31": [
+                        "Alignment"
+                    ], 
+                    "37": [
+                        "gappedPeak"
+                    ], 
+                    "36": [
+                        "broadPeak"
+                    ], 
+                    "35": [
+                        "narrowPeak"
+                    ], 
+                    "34": [
+                        "macs2signal_foldChange"
+                    ], 
+                    "258": [
+                        "E058"
+                    ], 
+                    "259": [
+                        "E059"
+                    ], 
+                    "252": [
+                        "E052"
+                    ], 
+                    "253": [
+                        "E053"
+                    ], 
+                    "250": [
+                        "E050"
+                    ], 
+                    "251": [
+                        "E051"
+                    ], 
+                    "256": [
+                        "E056"
+                    ], 
+                    "257": [
+                        "E057"
+                    ], 
+                    "254": [
+                        "E054"
+                    ], 
+                    "255": [
+                        "E055"
+                    ], 
+                    "2118": [
+                        "E120"
+                    ], 
+                    "2119": [
+                        "E121"
+                    ], 
+                    "2110": [
+                        "E112"
+                    ], 
+                    "2111": [
+                        "E113"
+                    ], 
+                    "2112": [
+                        "E114"
+                    ], 
+                    "2113": [
+                        "E115"
+                    ], 
+                    "2114": [
+                        "E116"
+                    ], 
+                    "2115": [
+                        "E117"
+                    ], 
+                    "2116": [
+                        "E118"
+                    ], 
+                    "2117": [
+                        "E119"
+                    ], 
+                    "229": [
+                        "E029"
+                    ], 
+                    "228": [
+                        "E028"
+                    ], 
+                    "227": [
+                        "E027"
+                    ], 
+                    "226": [
+                        "E026"
+                    ], 
+                    "225": [
+                        "E025"
+                    ], 
+                    "224": [
+                        "E024"
+                    ], 
+                    "223": [
+                        "E023"
+                    ], 
+                    "222": [
+                        "E022"
+                    ], 
+                    "221": [
+                        "E021"
+                    ], 
+                    "220": [
+                        "E020"
+                    ], 
+                    "11": [
+                        "Real"
+                    ], 
+                    "12": [
+                        "Imputed"
+                    ], 
+                    "2109": [
+                        "E111"
+                    ], 
+                    "2108": [
+                        "E110"
+                    ], 
+                    "2103": [
+                        "E105"
+                    ], 
+                    "2102": [
+                        "E104"
+                    ], 
+                    "2101": [
+                        "E103"
+                    ], 
+                    "2100": [
+                        "E102"
+                    ], 
+                    "2107": [
+                        "E109"
+                    ], 
+                    "2106": [
+                        "E108"
+                    ], 
+                    "2105": [
+                        "E107"
+                    ], 
+                    "2104": [
+                        "E106"
+                    ], 
+                    "238": [
+                        "E038"
+                    ], 
+                    "239": [
+                        "E039"
+                    ], 
+                    "234": [
+                        "E034"
+                    ], 
+                    "235": [
+                        "E035"
+                    ], 
+                    "236": [
+                        "E036"
+                    ], 
+                    "237": [
+                        "E037"
+                    ], 
+                    "230": [
+                        "E030"
+                    ], 
+                    "231": [
+                        "E031"
+                    ], 
+                    "232": [
+                        "E032"
+                    ], 
+                    "233": [
+                        "E033"
+                    ], 
+                    "2121": [
+                        "E123"
+                    ], 
+                    "2120": [
+                        "E122"
+                    ], 
+                    "2123": [
+                        "E125"
+                    ], 
+                    "2122": [
+                        "E124"
+                    ], 
+                    "2125": [
+                        "E127"
+                    ], 
+                    "2124": [
+                        "E126"
+                    ], 
+                    "2127": [
+                        "E129"
+                    ], 
+                    "2126": [
+                        "E128"
+                    ]
+                }, 
+                "vocabulary": {
+                    "Type": [
+                        "11", 
+                        "12"
+                    ], 
+                    "EID": [
+                        "21", 
+                        "22", 
+                        "23", 
+                        "24", 
+                        "25", 
+                        "26", 
+                        "27", 
+                        "28", 
+                        "29", 
+                        "210", 
+                        "211", 
+                        "212", 
+                        "213", 
+                        "214", 
+                        "215", 
+                        "216", 
+                        "217", 
+                        "218", 
+                        "219", 
+                        "220", 
+                        "221", 
+                        "222", 
+                        "223", 
+                        "224", 
+                        "225", 
+                        "226", 
+                        "227", 
+                        "228", 
+                        "229", 
+                        "230", 
+                        "231", 
+                        "232", 
+                        "233", 
+                        "234", 
+                        "235", 
+                        "236", 
+                        "237", 
+                        "238", 
+                        "239", 
+                        "240", 
+                        "241", 
+                        "242", 
+                        "243", 
+                        "244", 
+                        "245", 
+                        "246", 
+                        "247", 
+                        "248", 
+                        "249", 
+                        "250", 
+                        "251", 
+                        "252", 
+                        "253", 
+                        "254", 
+                        "255", 
+                        "256", 
+                        "257", 
+                        "258", 
+                        "259", 
+                        "260", 
+                        "261", 
+                        "262", 
+                        "263", 
+                        "264", 
+                        "265", 
+                        "266", 
+                        "267", 
+                        "268", 
+                        "269", 
+                        "270", 
+                        "271", 
+                        "272", 
+                        "273", 
+                        "274", 
+                        "275", 
+                        "276", 
+                        "277", 
+                        "278", 
+                        "279", 
+                        "280", 
+                        "281", 
+                        "282", 
+                        "283", 
+                        "284", 
+                        "285", 
+                        "286", 
+                        "287", 
+                        "288", 
+                        "289", 
+                        "290", 
+                        "291", 
+                        "292", 
+                        "293", 
+                        "294", 
+                        "295", 
+                        "296", 
+                        "297", 
+                        "298", 
+                        "299", 
+                        "2100", 
+                        "2101", 
+                        "2102", 
+                        "2103", 
+                        "2104", 
+                        "2105", 
+                        "2106", 
+                        "2107", 
+                        "2108", 
+                        "2109", 
+                        "2110", 
+                        "2111", 
+                        "2112", 
+                        "2113", 
+                        "2114", 
+                        "2115", 
+                        "2116", 
+                        "2117", 
+                        "2118", 
+                        "2119", 
+                        "2120", 
+                        "2121", 
+                        "2122", 
+                        "2123", 
+                        "2124", 
+                        "2125", 
+                        "2126", 
+                        "2127"
+                    ], 
+                    "View": [
+                        "31", 
+                        "32", 
+                        "33", 
+                        "34", 
+                        "35", 
+                        "36", 
+                        "37", 
+                        "38", 
+                        "39", 
+                        "310"
+                    ]
+                }
+            }
+        }, 
+        "type": "metadata", 
+        "facet_table": [
+            "Sample", 
+            "Assay"
+        ]
+    }, 
+    {
+        "colorpositive": "#FF8C00", 
+        "url": "http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidated/macs2signal/pval/E017-H3K4me1.pval.signal.bigwig", 
+        "fixedscale": {
+            "max": 40, 
+            "min": 2
+        }, 
+        "metadata": {
+            "Sample": "11310", 
+            "Assay": "22010", 
+            "private": [
+                "33", 
+                "11", 
+                "217"
+            ]
+        }, 
+        "height": 20, 
+        "mode": "full", 
+        "detail_url": "http://vizhub.wustl.edu/tD/hg19/E017", 
+        "type": "bigWig", 
+        "public": true, 
+        "name": "E017 IMR90 fetal lung fibroblasts Cell Line H3K4me1 pval signal"
+    }, 
+    {
+        "colorpositive": "#FF8C00", 
+        "url": "http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidated/macs2signal/foldChange/E017-H3K4me1.fc.signal.bigwig", 
+        "fixedscale": {
+            "max": 40, 
+            "min": 2
+        }, 
+        "metadata": {
+            "Sample": "11310", 
+            "Assay": "22010", 
+            "private": [
+                "34", 
+                "11", 
+                "217"
+            ]
+        }, 
+        "height": 20, 
+        "mode": "full", 
+        "detail_url": "http://vizhub.wustl.edu/tD/hg19/E017", 
+        "type": "bigWig", 
+        "public": true, 
+        "name": "E017 IMR90 fetal lung fibroblasts Cell Line H3K4me1 foldChange signal"
+    }, 
+    {
+        "name": "E017 IMR90 fetal lung fibroblasts Cell Line PrimaryHMM", 
+        "url": "http://egg2.wustl.edu/roadmap/data/byFileType/chromhmmSegmentations/ChmmModels/coreMarks/jointModel/final/E017_15_coreMarks_stateno.bed.gz", 
+        "height": 15, 
+        "mode": "full", 
+        "detail_url": "http://vizhub.wustl.edu/tD/hg19/E017", 
+        "type": "categorical", 
+        "public": true, 
+        "categories": {
+            "11": [
+                "Flanking Bivalent TSS/Enh", 
+                "#e9967a"
+            ], 
+            "10": [
+                "Bivalent/Poised TSS", 
+                "#cd5c5c"
+            ], 
+            "13": [
+                "Repressed PolyComb", 
+                "#808080"
+            ], 
+            "12": [
+                "Bivalent Enhancer", 
+                "#bdb76b"
+            ], 
+            "15": [
+                "Quiescent/Low", 
+                "#ffffff"
+            ], 
+            "14": [
+                "Weak Repressed PolyComb", 
+                "#c0c0c0"
+            ], 
+            "1": [
+                "Active TSS", 
+                "#ff0000"
+            ], 
+            "3": [
+                "Transcr at gene 5' and 3'", 
+                "#32cd32"
+            ], 
+            "2": [
+                "Flanking Active TSS", 
+                "#ff4500"
+            ], 
+            "5": [
+                "Weak transcription", 
+                "#006400"
+            ], 
+            "4": [
+                "Strong transcription", 
+                "#008000"
+            ], 
+            "7": [
+                "Enhancers", 
+                "#ffff00"
+            ], 
+            "6": [
+                "Genic enhancers", 
+                "#c2e105"
+            ], 
+            "9": [
+                "Heterochromatin", 
+                "#8a91d0"
+            ], 
+            "8": [
+                "ZNF genes & repeats", 
+                "#66cdaa"
+            ]
+        }, 
+        "metadata": {
+            "Sample": "11310", 
+            "Assay": "27004", 
+            "private": [
+                "38", 
+                "11", 
+                "217"
+            ]
+        }
+    }, 
+    {
+        "name": "E017 IMR90 fetal lung fibroblasts Cell Line AuxiliaryHMM", 
+        "url": "http://egg2.wustl.edu/roadmap/data/byFileType/chromhmmSegmentations/ChmmModels/core_K27ac/jointModel/final/E017_18_core_K27ac_stateno.bed.gz", 
+        "height": 15, 
+        "mode": "full", 
+        "detail_url": "http://vizhub.wustl.edu/tD/hg19/E017", 
+        "type": "categorical", 
+        "public": true, 
+        "categories": {
+            "11": [
+                "Weak Enhancer", 
+                "#ffff00"
+            ], 
+            "10": [
+                "Active Enhancer2", 
+                "#ffc34d"
+            ], 
+            "13": [
+                "Heterochromatin", 
+                "#8a91d0"
+            ], 
+            "12": [
+                "ZNF genes & repeats", 
+                "#66cdaa"
+            ], 
+            "15": [
+                "Bivalent Enhancer", 
+                "#bdb76b"
+            ], 
+            "14": [
+                "Bivalent/Poised TSS", 
+                "#cd5c5c"
+            ], 
+            "17": [
+                "Weak Repressed PolyComb", 
+                "#c0c0c0"
+            ], 
+            "16": [
+                "Repressed PolyComb", 
+                "#808080"
+            ], 
+            "18": [
+                "Quiescent/Low", 
+                "#ffffff"
+            ], 
+            "1": [
+                "Active TSS", 
+                "#ff0000"
+            ], 
+            "3": [
+                "Flanking TSS Upstream", 
+                "#ff4500"
+            ], 
+            "2": [
+                "Flanking TSS", 
+                "#ff4500"
+            ], 
+            "5": [
+                "Strong transcription", 
+                "#008000"
+            ], 
+            "4": [
+                "Flanking TSS Downstream", 
+                "#ff4500"
+            ], 
+            "7": [
+                "Genic enhancer1", 
+                "#c2e105"
+            ], 
+            "6": [
+                "Weak transcription", 
+                "#006400"
+            ], 
+            "9": [
+                "Active Enhancer1", 
+                "#ffc34d"
+            ], 
+            "8": [
+                "Genic enhancer2", 
+                "#c2e105"
+            ]
+        }, 
+        "metadata": {
+            "Sample": "11310", 
+            "Assay": "27004", 
+            "private": [
+                "39", 
+                "11", 
+                "217"
+            ]
+        }
+    }, 
+    {
+        "name": "H3K4me1 gappedPeak of IMR90 fetal lung fibroblasts Cell Line", 
+        "url": "http://egg2.wustl.edu/roadmap/data/byFileType/peaks/consolidated/gappedPeak/hammock/E017-H3K4me1.gappedPeak.hammock.gz", 
+        "scorenamelst": [
+            "signal value", 
+            "P value (-log10)", 
+            "Q value (-log10)"
+        ], 
+        "boxcolor": "#FF8C00", 
+        "metadata": {
+            "Sample": "11310", 
+            "Assay": "22010", 
+            "private": [
+                "37", 
+                "11", 
+                "217"
+            ]
+        }, 
+        "showscoreidx": 0, 
+        "defaultmode": "barplot", 
+        "detail_url": "http://vizhub.wustl.edu/tD/hg19/E017", 
+        "type": "hammock", 
+        "public": true, 
+        "mode": "barplot"
+    }, 
+    {
+        "name": "H3K4me1 narrowPeak of IMR90 fetal lung fibroblasts Cell Line", 
+        "url": "http://egg2.wustl.edu/roadmap/data/byFileType/peaks/consolidated/narrowPeak/hammock/E017-H3K4me1.narrowPeak.hammock.gz", 
+        "scorenamelst": [
+            "signal value", 
+            "P value (-log10)", 
+            "Q value (-log10)"
+        ], 
+        "boxcolor": "#FF8C00", 
+        "metadata": {
+            "Sample": "11310", 
+            "Assay": "22010", 
+            "private": [
+                "35", 
+                "11", 
+                "217"
+            ]
+        }, 
+        "showscoreidx": 0, 
+        "defaultmode": "barplot", 
+        "strokecolor": "#FF0000", 
+        "detail_url": "http://vizhub.wustl.edu/tD/hg19/E017", 
+        "type": "hammock", 
+        "public": true, 
+        "mode": "barplot"
+    }, 
+    {
+        "type": "coordinate_override", 
+        "coord": "chr9,34752444,chr9,38668535"
+    }, 
+    {
+        "type": "native_track", 
+        "list": [
+            {
+                "mode": 3, 
+                "qtc": {
+                    "pr": 0, 
+                    "thpercentile": 95, 
+                    "fontbold": false, 
+                    "anglescale": 1, 
+                    "thmin": 0, 
+                    "pth": "#800000", 
+                    "height": 50, 
+                    "nb": 230, 
+                    "thmax": 10, 
+                    "summeth": 1, 
+                    "ng": 0, 
+                    "pb": 0, 
+                    "nth": "#000099", 
+                    "fontsize": "10pt", 
+                    "pg": 77, 
+                    "thtype": 0, 
+                    "bedcolor": "rgb(0, 128, 128)", 
+                    "textcolor": "rgb(0,0,0)", 
+                    "nr": 0, 
+                    "fontfamily": "sans-serif"
+                }, 
+                "name": "refGene"
+            }
+        ]
+    }
+]

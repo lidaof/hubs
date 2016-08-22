@@ -1,0 +1,278 @@
+track UCSD_H1_BisulfiteSeq
+bigDataUrl UCSD_H1_BisulfiteSeq.bigWig
+shortLabel H1 methylC-seq
+longLabel H1 methylC-seq
+height 64
+type bigWig 0 1
+height 64
+color 100,139,216
+
+track methylome
+compositeTrack on
+shortLabel methylome from WashUGb
+longLabel methylome from WashUGb
+subGroup1 view Views CGmethy=CGmethy readDepth=readDepth CHHmethy=CHHmethy CHGmethy=CHGmethy
+subGroup2 sample Sample H1=H1 IMR90=IMR90
+subGroup3 assay Assay WGBS=WGBS RRBS=RRBS 450K=450K
+subGroup4 strand Strand forward=forward both=both reverse=reverse
+dimensions dimensionX=assay dimensionY=sample dimA=strand
+filterComposite on
+sortOrder sample=+ assay=+ strand=+
+dragAndDrop on
+visibility full
+type bed 3
+noInherit on
+
+
+track methylomeCG
+shortLabel CG methylation
+view CGmethy
+parent methylome
+maxHeightPixels 64:32:16
+type bigWig 0 1
+visibility full
+
+track IMR90_WGBS_CGmethy_forward
+bigDataUrl IMR90.forward.CGmethy.bedGraph.bigWig
+parent methylomeCG
+shortLabel IMR90 WGBS CGmethy forward
+longLabel IMR90 WGBS CGmethy forward
+subGroups view=CGmethy sample=IMR90 assay=WGBS strand=forward
+type bigWig 0 1
+autoScale off
+yLineOnOff on
+maxHeightPixels 64:32:16
+color 100,139,216
+
+track IMR90_WGBS_CGmethy_reverse
+bigDataUrl IMR90.reverse.CGmethy.bedGraph.bigWig
+parent methylomeCG
+shortLabel IMR90 WGBS CGmethy reverse
+longLabel IMR90 WGBS CGmethy reverse
+subGroups view=CGmethy sample=IMR90 assay=WGBS strand=reverse
+type bigWig 0 1
+autoScale off
+yLineOnOff on
+maxHeightPixels 64:32:16
+color 100,139,216
+
+track H1_WGBS_CGmethy_reverse
+bigDataUrl H1.reverse.CGmethy.bedGraph.bigWig
+parent methylomeCG
+shortLabel H1 WGBS CGmethy reverse
+longLabel H1 WGBS CGmethy reverse
+subGroups view=CGmethy sample=H1 assay=WGBS strand=reverse
+type bigWig 0 1
+autoScale off
+yLineOnOff on
+maxHeightPixels 64:32:16
+color 100,139,216
+
+track H1_RRBS_CGmethy_both
+bigDataUrl GSM621357_BI.H1.RRBS.RRBS360-361_CpG.bedGraph.liftTohg18.noOverlap.bigWig
+parent methylomeCG
+shortLabel H1 RRBS CGmethy both
+longLabel H1 RRBS CGmethy both
+subGroups view=CGmethy sample=H1 assay=RRBS strand=both
+type bigWig 0 1
+autoScale off
+yLineOnOff on
+maxHeightPixels 64:32:16
+color 100,139,216
+
+track H1_WGBS_CGmethy_forward
+bigDataUrl H1.forward.CGmethy.bedGraph.bigWig
+parent methylomeCG
+shortLabel H1 WGBS CGmethy forward
+longLabel H1 WGBS CGmethy forward
+subGroups view=CGmethy sample=H1 assay=WGBS strand=forward
+type bigWig 0 1
+autoScale off
+yLineOnOff on
+maxHeightPixels 64:32:16
+color 100,139,216
+
+track H1_450K_CGmethy_both
+bigDataUrl GSM999379_hg19_wgEncodeHaibMethyl450H1hescSitesRep1.bedGraph.liftTohg18.noOverlap.bigWig
+parent methylomeCG
+shortLabel H1 450K CGmethy both
+longLabel H1 450K CGmethy both
+subGroups view=CGmethy sample=H1 assay=450K strand=both
+type bigWig 0 1
+autoScale off
+yLineOnOff on
+maxHeightPixels 64:32:16
+color 100,139,216
+
+
+track methylomeCHG
+shortLabel CHG methylation
+view CHGmethy
+parent methylome
+maxHeightPixels 64:32:16
+type bigWig 0 1
+visibility full
+
+track IMR90_WGBS_CHGmethy_forward
+bigDataUrl IMR90.forward.CHGmethy.bedGraph.bigWig
+parent methylomeCHG
+shortLabel IMR90 WGBS CHGmethy forward
+longLabel IMR90 WGBS CHGmethy forward
+subGroups view=CHGmethy sample=IMR90 assay=WGBS strand=forward
+type bigWig 0 1
+autoScale off
+maxHeightPixels 64:32:16
+color 255,148,77
+yLineOnOff on
+
+track IMR90_WGBS_CHGmethy_reverse
+bigDataUrl IMR90.reverse.CHGmethy.bedGraph.bigWig
+parent methylomeCHG
+shortLabel IMR90 WGBS CHGmethy reverse
+longLabel IMR90 WGBS CHGmethy reverse
+subGroups view=CHGmethy sample=IMR90 assay=WGBS strand=reverse
+type bigWig 0 1
+autoScale off
+maxHeightPixels 64:32:16
+color 255,148,77
+yLineOnOff on
+
+track H1_WGBS_CHGmethy_forward
+bigDataUrl H1.forward.CHGmethy.bedGraph.bigWig
+parent methylomeCHG
+shortLabel H1 WGBS CHGmethy forward
+longLabel H1 WGBS CHGmethy forward
+subGroups view=CHGmethy sample=H1 assay=WGBS strand=forward
+type bigWig 0 1
+autoScale off
+maxHeightPixels 64:32:16
+color 255,148,77
+yLineOnOff on
+
+track H1_WGBS_CHGmethy_reverse
+bigDataUrl H1.reverse.CHGmethy.bedGraph.bigWig
+parent methylomeCHG
+shortLabel H1 WGBS CHGmethy reverse
+longLabel H1 WGBS CHGmethy reverse
+subGroups view=CHGmethy sample=H1 assay=WGBS strand=reverse
+type bigWig 0 1
+autoScale off
+maxHeightPixels 64:32:16
+color 255,148,77
+yLineOnOff on
+
+
+track methylomeCHH
+shortLabel CHH methylation
+view CHHmethy
+parent methylome
+maxHeightPixels 64:32:16
+type bigWig 0 1
+visibility full
+
+track H1_WGBS_CHHmethy_reverse
+bigDataUrl H1.reverse.CHHmethy.bedGraph.bigWig
+parent methylomeCHH
+shortLabel H1 WGBS CHHmethy reverse
+longLabel H1 WGBS CHHmethy reverse
+subGroups view=CHHmethy sample=H1 assay=WGBS strand=reverse
+type bigWig 0 1
+autoScale off
+maxHeightPixels 64:32:16
+color 255,0,255
+yLineOnOff on
+
+track H1_WGBS_CHHmethy_forward
+bigDataUrl H1.forward.CHHmethy.bedGraph.bigWig
+parent methylomeCHH
+shortLabel H1 WGBS CHHmethy forward
+longLabel H1 WGBS CHHmethy forward
+subGroups view=CHHmethy sample=H1 assay=WGBS strand=forward
+type bigWig 0 1
+autoScale off
+maxHeightPixels 64:32:16
+color 255,0,255
+yLineOnOff on
+
+track IMR90_WGBS_CHHmethy_reverse
+bigDataUrl IMR90.reverse.CHHmethy.bedGraph.bigWig
+parent methylomeCHH
+shortLabel IMR90 WGBS CHHmethy reverse
+longLabel IMR90 WGBS CHHmethy reverse
+subGroups view=CHHmethy sample=IMR90 assay=WGBS strand=reverse
+type bigWig 0 1
+autoScale off
+maxHeightPixels 64:32:16
+color 255,0,255
+yLineOnOff on
+
+track IMR90_WGBS_CHHmethy_forward
+bigDataUrl IMR90.forward.CHHmethy.bedGraph.bigWig
+parent methylomeCHH
+shortLabel IMR90 WGBS CHHmethy forward
+longLabel IMR90 WGBS CHHmethy forward
+subGroups view=CHHmethy sample=IMR90 assay=WGBS strand=forward
+type bigWig 0 1
+autoScale off
+maxHeightPixels 64:32:16
+color 255,0,255
+yLineOnOff on
+
+
+track methylomeDensity
+shortLabel Reads Density
+view readDepth
+parent methylome
+maxHeightPixels 64:32:16
+type bigWig
+visibility full
+
+track H1_WGBS_readDepth_forward
+bigDataUrl H1.forward.readDepth.bedGraph.bigWig
+parent methylomeDensity
+shortLabel H1 WGBS readDepth forward
+longLabel H1 WGBS readDepth forward
+subGroups view=readDepth sample=H1 assay=WGBS strand=forward
+type bigWig
+autoScale on
+maxHeightPixels 64:32:16
+color 82,82,82
+yLineOnOff on
+
+track H1_WGBS_readDepth_reverse
+bigDataUrl H1.reverse.readDepth.bedGraph.bigWig
+parent methylomeDensity
+shortLabel H1 WGBS readDepth reverse
+longLabel H1 WGBS readDepth reverse
+subGroups view=readDepth sample=H1 assay=WGBS strand=reverse
+type bigWig
+autoScale on
+maxHeightPixels 64:32:16
+color 82,82,82
+yLineOnOff on
+
+track IMR90_WGBS_readDepth_forward
+bigDataUrl IMR90.forward.readDepth.bedGraph.bigWig
+parent methylomeDensity
+shortLabel IMR90 WGBS readDepth forward
+longLabel IMR90 WGBS readDepth forward
+subGroups view=readDepth sample=IMR90 assay=WGBS strand=forward
+type bigWig
+autoScale on
+maxHeightPixels 64:32:16
+color 82,82,82
+yLineOnOff on
+
+track IMR90_WGBS_readDepth_reverse
+bigDataUrl IMR90.reverse.readDepth.bedGraph.bigWig
+parent methylomeDensity
+shortLabel IMR90 WGBS readDepth reverse
+longLabel IMR90 WGBS readDepth reverse
+subGroups view=readDepth sample=IMR90 assay=WGBS strand=reverse
+type bigWig
+autoScale on
+maxHeightPixels 64:32:16
+color 82,82,82
+yLineOnOff on
+
+

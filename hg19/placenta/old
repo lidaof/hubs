@@ -1,0 +1,35 @@
+[
+
+{
+type:"methylC",
+name:"CTL01 Basal Plate methylome",
+mode:"show",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+tracks:{
+	forward:{
+		ReadDepth:{color:'#525252',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/A26610_D2C94ACXX_4.forward.Density.bedGraph.gz'},
+		CG:{color:'rgb(100,139,216)',bg:'#ffff80',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/A26610_D2C94ACXX_4.forward.CG.bedGraph.gz'},
+		CHG:{color:'rgb(255,148,77)',bg:'#ededed',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/A26610_D2C94ACXX_4.forward.CHG.bedGraph.gz'},
+		CHH:{color:'rgb(255,0,255)',bg:'#ededed',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/A26610_D2C94ACXX_4.forward.CHH.bedGraph.gz'},
+		},
+	reverse:{
+		ReadDepth:{color:'#525252',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/A26610_D2C94ACXX_4.reverse.Density.bedGraph.gz'},
+		CG:{color:'rgb(100,139,216)',bg:'#ffff80',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/A26610_D2C94ACXX_4.reverse.CG.bedGraph.gz'},
+		CHG:{color:'rgb(255,148,77)',bg:'#ededed',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/A26610_D2C94ACXX_4.reverse.CHG.bedGraph.gz'},
+		CHH:{color:'rgb(255,0,255)',bg:'#ededed',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/A26610_D2C94ACXX_4.reverse.CHH.bedGraph.gz'},
+		},
+	}
+},
+
+]

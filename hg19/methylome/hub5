@@ -1,0 +1,84 @@
+[
+
+{
+type:"methylC",
+name:"H1 ESC methylome",
+custom_annotation:['H1', 'WGBS'],
+mode:"show",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+tracks:{
+	forward:{
+		ReadDepth:{color:'#525252',
+			url:'http://vizhub.wustl.edu/public/hg19/methylome/H1.forward.Density.bedGraph.gz'},
+		CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',
+			url:'http://vizhub.wustl.edu/public/hg19/methylome/H1.forward.CG.bedGraph.filter5.gz'},
+		CHG:{color:'rgb(255,148,77)',bg:'#ffe0cc',
+			url:'http://vizhub.wustl.edu/public/hg19/methylome/H1.forward.CHG.bedGraph.filter5.gz'},
+		CHH:{color:'rgb(255,0,255)',bg:'#ffe5ff',
+			url:'http://vizhub.wustl.edu/public/hg19/methylome/H1.forward.CHH.bedGraph.filter5.gz'},
+		},
+	reverse:{
+		ReadDepth:{color:'#525252',
+			url:'http://vizhub.wustl.edu/public/hg19/methylome/H1.reverse.Density.bedGraph.gz'},
+		CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',
+			url:'http://vizhub.wustl.edu/public/hg19/methylome/H1.reverse.CG.bedGraph.filter5.gz'},
+		CHG:{color:'rgb(255,148,77)',bg:'#ffe0cc',
+			url:'http://vizhub.wustl.edu/public/hg19/methylome/H1.reverse.CHG.bedGraph.filter5.gz'},
+		CHH:{color:'rgb(255,0,255)',bg:'#ffe5ff',
+			url:'http://vizhub.wustl.edu/public/hg19/methylome/H1.reverse.CHH.bedGraph.filter5.gz'},
+		},
+	}
+},
+
+{
+type:"methylC",
+name:"IMR90 methylome",
+custom_annotation:['IMR90', 'WGBS'],
+mode:"show",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+tracks:{
+	forward:{
+		ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/methylome/IMR90.forward.Density.bedGraph.gz'},
+		CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/methylome/IMR90.forward.CG.bedGraph.filter5.gz'},
+		CHG:{color:'rgb(255,148,77)',bg:'#ffe0cc',url:'http://vizhub.wustl.edu/public/hg19/methylome/IMR90.forward.CHG.bedGraph.filter5.gz'},
+		CHH:{color:'rgb(255,0,255)',bg:'#ffe5ff',url:'http://vizhub.wustl.edu/public/hg19/methylome/IMR90.forward.CHH.bedGraph.filter5.gz'},
+		},
+	reverse:{
+		ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/methylome/IMR90.reverse.Density.bedGraph.gz'},
+		CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/methylome/IMR90.reverse.CG.bedGraph.filter5.gz'},
+		CHG:{color:'rgb(255,148,77)',bg:'#ffe0cc',url:'http://vizhub.wustl.edu/public/hg19/methylome/IMR90.reverse.CHG.bedGraph.filter5.gz'},
+		CHH:{color:'rgb(255,0,255)',bg:'#ffe5ff',url:'http://vizhub.wustl.edu/public/hg19/methylome/IMR90.reverse.CHH.bedGraph.filter5.gz'},
+		},
+	}
+},
+
+{
+    type:'bedgraph', 
+    url:'http://vizhub.wustl.edu/public/hg19/methylome/GSM621357_BI.H1.RRBS.RRBS360-361_CpG.bedGraph.gz',
+    name:'H1 ESC RRBS',mode:'show',
+    custom_annotation:['H1', 'RRBS'],
+    colorpositive:'rgb(100,139,216)',height:40 ,fixedscale:{min:0,max:1},barplot_bg:'#d9d9d9',
+},
+
+{
+    type:'bedgraph', 
+    url:'http://vizhub.wustl.edu/public/hg19/methylome/GSM999379_hg19_wgEncodeHaibMethyl450H1hescSitesRep1.bedGraph.gz',
+    name:'H1 ESC 450K',mode:'show',
+    custom_annotation:['H1', '450K'],
+    colorpositive:'rgb(100,139,216)',height:40 ,fixedscale:{min:0,max:1},barplot_bg:'#d9d9d9',
+},
+
+{type:'metadata',vocabulary:{
+    'Sample':['H1','IMR90'],
+    'Assay':['WGBS','RRBS','450K'],
+    },
+        show:['Sample','Assay'],
+},
+
+]

@@ -1,0 +1,4 @@
+[
+{"show_terms": {"Sample": ["Cell Line", "Developmental Stage", "Strain", "Tissue"], "Assay": ["Assay"]}, "vocabulary_set": {"Sample": "http://vizhub.wustl.edu/metadata/fruitfly/Fly_Sample_metadata", "Assay": "http://vizhub.wustl.edu/metadata/Experimental_assays", "Institution": "http://vizhub.wustl.edu/metadata/Institutions"}, "type": "metadata", "facet_table": ["Sample", "Assay"]},
+{"type":"longrange", "url":"http://egg.wustl.edu/d/dm6/Drosophila_HiC_1kb_contacts.gz", "name":"Kc167 cells 1Kb Hi-C", "mode":"show", "metadata": {"Sample": ["10004"], "Assay": "27003","Institution":"30034"},"height": 10,"details":{"source":"data obtained from google community user Victor Corces","sample info":"4 different Drosophila Kc cells libraries pooled. Three of the libraries were made using DpnII and one made Hinf1. But the sample is Kc167 cells"}, "public":true}
+]

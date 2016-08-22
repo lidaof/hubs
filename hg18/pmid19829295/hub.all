@@ -1,0 +1,82 @@
+[
+
+{
+type:"methylC",
+name:"H1 ESC methylome",
+custom_annotation:['H1', 'WGBS'],
+mode:"show",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+    "Publication":"Human DNA methylomes at base resolution show widespread epigenomic differences. <a href=http://www.nature.com/nature/journal/vaop/ncurrent/full/nature08514.html target=_blank>doi:10.1038/nature08514</a>",
+    "Source":"http://neomorph.salk.edu/human_methylome/data.html",
+"Download date":"Feb 2014",
+"Note":"The CG track contains data for both methylated and unmethylated cytosines.<br><br>The CHG and CHH tracks contain data for only methylated cytosines.<br>Unmethylated CHG and CHH cytosines were excluded.",
+},
+tracks:{
+	forward:{
+		ReadDepth:{color:'#525252',
+			url:'http://vizhub.wustl.edu/public/hg18/pmid19829295/H1.forward.readDepth.bedGraph.gz'},
+		CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',
+			url:'http://vizhub.wustl.edu/public/hg18/pmid19829295/h1.f.cg.gz'},
+		CHG:{color:'rgb(255,148,77)',bg:'#ffe0cc',
+			url:'http://vizhub.wustl.edu/public/hg18/pmid19829295/h1.f.chg.gz'},
+		CHH:{color:'rgb(255,0,255)',bg:'#ffe5ff',
+			url:'http://vizhub.wustl.edu/public/hg18/pmid19829295/h1.f.chh.gz'},
+		},
+	reverse:{
+		ReadDepth:{color:'#525252',
+			url:'http://vizhub.wustl.edu/public/hg18/pmid19829295/H1.reverse.readDepth.bedGraph.gz'},
+		CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',
+			url:'http://vizhub.wustl.edu/public/hg18/pmid19829295/h1.r.cg.gz'},
+		CHG:{color:'rgb(255,148,77)',bg:'#ffe0cc',
+			url:'http://vizhub.wustl.edu/public/hg18/pmid19829295/h1.r.chg.gz'},
+		CHH:{color:'rgb(255,0,255)',bg:'#ffe5ff',
+			url:'http://vizhub.wustl.edu/public/hg18/pmid19829295/h1.r.chh.gz'},
+		},
+	}
+},
+
+{
+type:"methylC",
+name:"IMR90 methylome",
+custom_annotation:['IMR90', 'WGBS'],
+mode:"show",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+    "Publication":"Human DNA methylomes at base resolution show widespread epigenomic differences. <a href=http://www.nature.com/nature/journal/vaop/ncurrent/full/nature08514.html target=_blank>doi:10.1038/nature08514</a>",
+    "Source":"http://neomorph.salk.edu/human_methylome/data.html",
+"Download date":"Feb 2014",
+"Note":"The CG track contains data for both methylated and unmethylated cytosines.<br><br>The CHG and CHH tracks contain data for only methylated cytosines.<br>Unmethylated CHG and CHH cytosines were excluded.",
+},
+tracks:{
+	forward:{
+		ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg18/pmid19829295/IMR90.forward.readDepth.bedGraph.gz'},
+		CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg18/pmid19829295/imr90.f.cg.gz'},
+		CHG:{color:'rgb(255,148,77)',bg:'#ffe0cc',url:'http://vizhub.wustl.edu/public/hg18/pmid19829295/imr90.f.chg.gz'},
+		CHH:{color:'rgb(255,0,255)',bg:'#ffe5ff',url:'http://vizhub.wustl.edu/public/hg18/pmid19829295/imr90.f.chh.gz'},
+		},
+	reverse:{
+		ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg18/pmid19829295/IMR90.reverse.readDepth.bedGraph.gz'},
+		CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg18/pmid19829295/imr90.r.cg.gz'},
+		CHG:{color:'rgb(255,148,77)',bg:'#ffe0cc',url:'http://vizhub.wustl.edu/public/hg18/pmid19829295/imr90.r.chg.gz'},
+		CHH:{color:'rgb(255,0,255)',bg:'#ffe5ff',url:'http://vizhub.wustl.edu/public/hg18/pmid19829295/imr90.r.chh.gz'},
+		},
+	}
+},
+
+{type:'metadata',vocabulary:{
+    'Sample':['H1','IMR90'],
+    'Assay':['WGBS','RRBS','450K'],
+    },
+        show:['Sample','Assay'],
+},
+
+]

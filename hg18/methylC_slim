@@ -1,0 +1,21 @@
+[
+
+{
+type:"methylC",
+name:"H1 ESC methylome",
+mode:"show",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+tracks:{
+	forward:{
+		ReadDepth:{color:'#525252',
+			url:'http://vizhub.wustl.edu/public/hg18/fig/h1.rd.4slim.gz'},
+		CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',
+			url:'http://vizhub.wustl.edu/public/hg18/fig/h1.cg.4slim.gz'},
+		},
+	},
+},
+
+]

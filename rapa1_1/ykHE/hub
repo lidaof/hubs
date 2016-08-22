@@ -1,0 +1,78 @@
+[
+
+{
+type:'bam',
+url:'http://vizhub.wustl.edu/public/rapa1_1/ykHE/resequencing/Bre_all_sorted.bam',
+name:'B. rapa ssp. pekinensis. re-sequencing',
+mode:'thin',
+custom_annotation:['Bre','seedling','re-sequencing'],
+colorpositive:"#006666",
+colorforward:"#006666",colorreverse:"#660066",
+},
+
+{
+type:'bam',
+url:'http://vizhub.wustl.edu/public/rapa1_1/ykHE/resequencing/Wu_all_sorted.bam',
+name:'B. rapa ssp. chinensis re-sequencing',
+mode:'thin',
+colorpositive:'rgb(0,0,153)',
+custom_annotation:['Wut','seedling','re-sequencing'],
+},
+
+{
+type:'bam',
+url:'http://vizhub.wustl.edu/public/rapa1_1/ykHE/RNAseq_bam_data/Bre_accepted_hits_flower.bam',
+name:'B. rapa ssp. pekinensis. inflorescence apices RNA-seq',
+mode:'density',
+custom_annotation:['Bre','inflorescence apice','RNA-seq'],
+colorpositive:"#006666",
+colorforward:"#006666",colorreverse:"#660066",
+},
+
+{
+type:'bam',
+url:'http://vizhub.wustl.edu/public/rapa1_1/ykHE/RNAseq_bam_data/Bre_accepted_hits_sorted.bam',
+name:'B. rapa ssp. pekinensis. seedlings RNA-seq',
+mode:'density',
+custom_annotation:['Bre','seedling','RNA-seq'],
+colorpositive:"#006666",
+colorforward:"#006666",colorreverse:"#660066",
+},
+
+{
+type:'bam',
+url:'http://vizhub.wustl.edu/public/rapa1_1/ykHE/RNAseq_bam_data/Wu_accepted_hits_flower.bam',
+name:'B. rapa ssp. chinensis inflorescence apices RNA-seq',
+mode:'density',
+custom_annotation:['Wut','inflorescence apice','RNA-seq'],
+colorpositive:'rgb(0,0,153)',
+},
+
+{
+type:'bam',
+url:'http://vizhub.wustl.edu/public/rapa1_1/ykHE/RNAseq_bam_data/Wu_accepted_hits_sorted.bam',
+name:'B. rapa ssp. chinensis seedlings RNA-seq',
+mode:'density',
+custom_annotation:['Wut','seedling','RNA-seq'],
+colorpositive:'rgb(0,0,153)',
+},
+
+{
+type:'metadata',
+vocabulary:{
+    'Tissue':['seedling','inflorescence apice'],
+    'B. rapa breed':['Bre','Wut'],
+    'Assay':['re-sequencing','RNA-seq'],
+},
+termdesc:{'Bre':'Heading Chinese cabbage (B. rapa ssp. pekinensis. cv Bre)',
+    'Wut':'non-heading Chinese cabbage (B. rapa ssp. chinensis. cv Wut)'},
+show:['Tissue','B. rapa breed','Assay'],
+tag:'Bre / Wut comparison',
+},
+
+
+
+
+
+
+]

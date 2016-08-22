@@ -1,0 +1,5 @@
+hub methylome
+shortLabel methylome WashUGb
+longLabel methylome from WashUGb
+genomesFile genomes2.txt
+email dli@genetics.wustl.edu

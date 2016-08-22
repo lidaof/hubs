@@ -1,0 +1,427 @@
+[
+
+
+{
+type:"methylC",
+name:"CTL07 Trophoblast methylome",
+mode:"show",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+custom_annotation:["Term","Trophoblast","CTL07"],
+tracks:{
+	forward:{
+		ReadDepth:{color:'#525252',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL07_Trophoblast.forward.Density.bedGraph.gz'},
+		CG:{color:'rgb(100,139,216)',bg:'#ffff80',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL07_Trophoblast.forward.CG.bedGraph.gz'},
+		CHG:{color:'rgb(255,148,77)',bg:'#ededed',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL07_Trophoblast.forward.CHG.bedGraph.gz'},
+		CHH:{color:'rgb(255,0,255)',bg:'#ededed',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL07_Trophoblast.forward.CHH.bedGraph.gz'},
+		},
+	reverse:{
+		ReadDepth:{color:'#525252',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL07_Trophoblast.reverse.Density.bedGraph.gz'},
+		CG:{color:'rgb(100,139,216)',bg:'#ffff80',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL07_Trophoblast.reverse.CG.bedGraph.gz'},
+		CHG:{color:'rgb(255,148,77)',bg:'#ededed',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL07_Trophoblast.reverse.CHG.bedGraph.gz'},
+		CHH:{color:'rgb(255,0,255)',bg:'#ededed',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL07_Trophoblast.reverse.CHH.bedGraph.gz'},
+		},
+	}
+},
+
+
+{
+type:"methylC",
+name:"CTL02 ChorionSmooth methylome",
+mode:"show",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+custom_annotation:["2ndTrimester","ChorionSmooth","CTL02"],
+tracks:{
+	forward:{
+		ReadDepth:{color:'#525252',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL02_ChorionSmooth.forward.Density.bedGraph.gz'},
+		CG:{color:'rgb(100,139,216)',bg:'#ffff80',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL02_ChorionSmooth.forward.CG.bedGraph.gz'},
+		CHG:{color:'rgb(255,148,77)',bg:'#ededed',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL02_ChorionSmooth.forward.CHG.bedGraph.gz'},
+		CHH:{color:'rgb(255,0,255)',bg:'#ededed',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL02_ChorionSmooth.forward.CHH.bedGraph.gz'},
+		},
+	reverse:{
+		ReadDepth:{color:'#525252',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL02_ChorionSmooth.reverse.Density.bedGraph.gz'},
+		CG:{color:'rgb(100,139,216)',bg:'#ffff80',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL02_ChorionSmooth.reverse.CG.bedGraph.gz'},
+		CHG:{color:'rgb(255,148,77)',bg:'#ededed',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL02_ChorionSmooth.reverse.CHG.bedGraph.gz'},
+		CHH:{color:'rgb(255,0,255)',bg:'#ededed',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL02_ChorionSmooth.reverse.CHH.bedGraph.gz'},
+		},
+	}
+},
+
+
+{
+type:"methylC",
+name:"CTL02 Villi methylome",
+mode:"show",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+custom_annotation:["2ndTrimester","Villi","CTL02"],
+tracks:{
+	forward:{
+		ReadDepth:{color:'#525252',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL02_Villi.forward.Density.bedGraph.gz'},
+		CG:{color:'rgb(100,139,216)',bg:'#ffff80',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL02_Villi.forward.CG.bedGraph.gz'},
+		CHG:{color:'rgb(255,148,77)',bg:'#ededed',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL02_Villi.forward.CHG.bedGraph.gz'},
+		CHH:{color:'rgb(255,0,255)',bg:'#ededed',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL02_Villi.forward.CHH.bedGraph.gz'},
+		},
+	reverse:{
+		ReadDepth:{color:'#525252',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL02_Villi.reverse.Density.bedGraph.gz'},
+		CG:{color:'rgb(100,139,216)',bg:'#ffff80',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL02_Villi.reverse.CG.bedGraph.gz'},
+		CHG:{color:'rgb(255,148,77)',bg:'#ededed',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL02_Villi.reverse.CHG.bedGraph.gz'},
+		CHH:{color:'rgb(255,0,255)',bg:'#ededed',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL02_Villi.reverse.CHH.bedGraph.gz'},
+		},
+	}
+},
+
+
+{
+type:"methylC",
+name:"CTL04 Trophoblast methylome",
+mode:"show",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+custom_annotation:["Term","Trophoblast","CTL04"],
+tracks:{
+	forward:{
+		ReadDepth:{color:'#525252',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL04_Trophoblast.forward.Density.bedGraph.gz'},
+		CG:{color:'rgb(100,139,216)',bg:'#ffff80',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL04_Trophoblast.forward.CG.bedGraph.gz'},
+		CHG:{color:'rgb(255,148,77)',bg:'#ededed',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL04_Trophoblast.forward.CHG.bedGraph.gz'},
+		CHH:{color:'rgb(255,0,255)',bg:'#ededed',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL04_Trophoblast.forward.CHH.bedGraph.gz'},
+		},
+	reverse:{
+		ReadDepth:{color:'#525252',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL04_Trophoblast.reverse.Density.bedGraph.gz'},
+		CG:{color:'rgb(100,139,216)',bg:'#ffff80',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL04_Trophoblast.reverse.CG.bedGraph.gz'},
+		CHG:{color:'rgb(255,148,77)',bg:'#ededed',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL04_Trophoblast.reverse.CHG.bedGraph.gz'},
+		CHH:{color:'rgb(255,0,255)',bg:'#ededed',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL04_Trophoblast.reverse.CHH.bedGraph.gz'},
+		},
+	}
+},
+
+
+{
+type:"methylC",
+name:"CTL05 Trophoblast methylome",
+mode:"show",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+custom_annotation:["2ndTrimester","Trophoblast","CTL05"],
+tracks:{
+	forward:{
+		ReadDepth:{color:'#525252',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL05_Trophoblast.forward.Density.bedGraph.gz'},
+		CG:{color:'rgb(100,139,216)',bg:'#ffff80',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL05_Trophoblast.forward.CG.bedGraph.gz'},
+		CHG:{color:'rgb(255,148,77)',bg:'#ededed',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL05_Trophoblast.forward.CHG.bedGraph.gz'},
+		CHH:{color:'rgb(255,0,255)',bg:'#ededed',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL05_Trophoblast.forward.CHH.bedGraph.gz'},
+		},
+	reverse:{
+		ReadDepth:{color:'#525252',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL05_Trophoblast.reverse.Density.bedGraph.gz'},
+		CG:{color:'rgb(100,139,216)',bg:'#ffff80',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL05_Trophoblast.reverse.CG.bedGraph.gz'},
+		CHG:{color:'rgb(255,148,77)',bg:'#ededed',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL05_Trophoblast.reverse.CHG.bedGraph.gz'},
+		CHH:{color:'rgb(255,0,255)',bg:'#ededed',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL05_Trophoblast.reverse.CHH.bedGraph.gz'},
+		},
+	}
+},
+
+
+{
+type:"methylC",
+name:"CTL01 ChorionSmooth methylome",
+mode:"show",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+custom_annotation:["Term","ChorionSmooth","CTL01"],
+tracks:{
+	forward:{
+		ReadDepth:{color:'#525252',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL01_ChorionSmooth.forward.Density.bedGraph.gz'},
+		CG:{color:'rgb(100,139,216)',bg:'#ffff80',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL01_ChorionSmooth.forward.CG.bedGraph.gz'},
+		CHG:{color:'rgb(255,148,77)',bg:'#ededed',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL01_ChorionSmooth.forward.CHG.bedGraph.gz'},
+		CHH:{color:'rgb(255,0,255)',bg:'#ededed',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL01_ChorionSmooth.forward.CHH.bedGraph.gz'},
+		},
+	reverse:{
+		ReadDepth:{color:'#525252',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL01_ChorionSmooth.reverse.Density.bedGraph.gz'},
+		CG:{color:'rgb(100,139,216)',bg:'#ffff80',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL01_ChorionSmooth.reverse.CG.bedGraph.gz'},
+		CHG:{color:'rgb(255,148,77)',bg:'#ededed',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL01_ChorionSmooth.reverse.CHG.bedGraph.gz'},
+		CHH:{color:'rgb(255,0,255)',bg:'#ededed',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL01_ChorionSmooth.reverse.CHH.bedGraph.gz'},
+		},
+	}
+},
+
+
+{
+type:"methylC",
+name:"CTL02 Trophoblast methylome",
+mode:"show",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+custom_annotation:["2ndTrimester","Trophoblast","CTL02"],
+tracks:{
+	forward:{
+		ReadDepth:{color:'#525252',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL02_Trophoblast.forward.Density.bedGraph.gz'},
+		CG:{color:'rgb(100,139,216)',bg:'#ffff80',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL02_Trophoblast.forward.CG.bedGraph.gz'},
+		CHG:{color:'rgb(255,148,77)',bg:'#ededed',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL02_Trophoblast.forward.CHG.bedGraph.gz'},
+		CHH:{color:'rgb(255,0,255)',bg:'#ededed',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL02_Trophoblast.forward.CHH.bedGraph.gz'},
+		},
+	reverse:{
+		ReadDepth:{color:'#525252',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL02_Trophoblast.reverse.Density.bedGraph.gz'},
+		CG:{color:'rgb(100,139,216)',bg:'#ffff80',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL02_Trophoblast.reverse.CG.bedGraph.gz'},
+		CHG:{color:'rgb(255,148,77)',bg:'#ededed',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL02_Trophoblast.reverse.CHG.bedGraph.gz'},
+		CHH:{color:'rgb(255,0,255)',bg:'#ededed',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL02_Trophoblast.reverse.CHH.bedGraph.gz'},
+		},
+	}
+},
+
+
+{
+type:"methylC",
+name:"CTL02 Amnion methylome",
+mode:"show",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+custom_annotation:["2ndTrimester","Amnion","CTL02"],
+tracks:{
+	forward:{
+		ReadDepth:{color:'#525252',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL02_Amnion.forward.Density.bedGraph.gz'},
+		CG:{color:'rgb(100,139,216)',bg:'#ffff80',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL02_Amnion.forward.CG.bedGraph.gz'},
+		CHG:{color:'rgb(255,148,77)',bg:'#ededed',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL02_Amnion.forward.CHG.bedGraph.gz'},
+		CHH:{color:'rgb(255,0,255)',bg:'#ededed',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL02_Amnion.forward.CHH.bedGraph.gz'},
+		},
+	reverse:{
+		ReadDepth:{color:'#525252',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL02_Amnion.reverse.Density.bedGraph.gz'},
+		CG:{color:'rgb(100,139,216)',bg:'#ffff80',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL02_Amnion.reverse.CG.bedGraph.gz'},
+		CHG:{color:'rgb(255,148,77)',bg:'#ededed',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL02_Amnion.reverse.CHG.bedGraph.gz'},
+		CHH:{color:'rgb(255,0,255)',bg:'#ededed',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL02_Amnion.reverse.CHH.bedGraph.gz'},
+		},
+	}
+},
+
+
+{
+type:"methylC",
+name:"CTL02 BasalPlate methylome",
+mode:"show",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+custom_annotation:["2ndTrimester","BasalPlate","CTL02"],
+tracks:{
+	forward:{
+		ReadDepth:{color:'#525252',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL02_BasalPlate.forward.Density.bedGraph.gz'},
+		CG:{color:'rgb(100,139,216)',bg:'#ffff80',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL02_BasalPlate.forward.CG.bedGraph.gz'},
+		CHG:{color:'rgb(255,148,77)',bg:'#ededed',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL02_BasalPlate.forward.CHG.bedGraph.gz'},
+		CHH:{color:'rgb(255,0,255)',bg:'#ededed',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL02_BasalPlate.forward.CHH.bedGraph.gz'},
+		},
+	reverse:{
+		ReadDepth:{color:'#525252',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL02_BasalPlate.reverse.Density.bedGraph.gz'},
+		CG:{color:'rgb(100,139,216)',bg:'#ffff80',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL02_BasalPlate.reverse.CG.bedGraph.gz'},
+		CHG:{color:'rgb(255,148,77)',bg:'#ededed',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL02_BasalPlate.reverse.CHG.bedGraph.gz'},
+		CHH:{color:'rgb(255,0,255)',bg:'#ededed',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL02_BasalPlate.reverse.CHH.bedGraph.gz'},
+		},
+	}
+},
+
+
+{
+type:"methylC",
+name:"CTL01 Amnion methylome",
+mode:"show",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+custom_annotation:["Term","Amnion","CTL01"],
+tracks:{
+	forward:{
+		ReadDepth:{color:'#525252',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL01_Amnion.forward.Density.bedGraph.gz'},
+		CG:{color:'rgb(100,139,216)',bg:'#ffff80',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL01_Amnion.forward.CG.bedGraph.gz'},
+		CHG:{color:'rgb(255,148,77)',bg:'#ededed',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL01_Amnion.forward.CHG.bedGraph.gz'},
+		CHH:{color:'rgb(255,0,255)',bg:'#ededed',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL01_Amnion.forward.CHH.bedGraph.gz'},
+		},
+	reverse:{
+		ReadDepth:{color:'#525252',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL01_Amnion.reverse.Density.bedGraph.gz'},
+		CG:{color:'rgb(100,139,216)',bg:'#ffff80',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL01_Amnion.reverse.CG.bedGraph.gz'},
+		CHG:{color:'rgb(255,148,77)',bg:'#ededed',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL01_Amnion.reverse.CHG.bedGraph.gz'},
+		CHH:{color:'rgb(255,0,255)',bg:'#ededed',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL01_Amnion.reverse.CHH.bedGraph.gz'},
+		},
+	}
+},
+
+
+{
+type:"methylC",
+name:"CTL01 BasalPlate methylome",
+mode:"show",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+custom_annotation:["Term","BasalPlate","CTL01"],
+tracks:{
+	forward:{
+		ReadDepth:{color:'#525252',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL01_BasalPlate.forward.Density.bedGraph.gz'},
+		CG:{color:'rgb(100,139,216)',bg:'#ffff80',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL01_BasalPlate.forward.CG.bedGraph.gz'},
+		CHG:{color:'rgb(255,148,77)',bg:'#ededed',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL01_BasalPlate.forward.CHG.bedGraph.gz'},
+		CHH:{color:'rgb(255,0,255)',bg:'#ededed',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL01_BasalPlate.forward.CHH.bedGraph.gz'},
+		},
+	reverse:{
+		ReadDepth:{color:'#525252',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL01_BasalPlate.reverse.Density.bedGraph.gz'},
+		CG:{color:'rgb(100,139,216)',bg:'#ffff80',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL01_BasalPlate.reverse.CG.bedGraph.gz'},
+		CHG:{color:'rgb(255,148,77)',bg:'#ededed',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL01_BasalPlate.reverse.CHG.bedGraph.gz'},
+		CHH:{color:'rgb(255,0,255)',bg:'#ededed',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL01_BasalPlate.reverse.CHH.bedGraph.gz'},
+		},
+	}
+},
+
+
+{
+type:"methylC",
+name:"CTL01 Villi methylome",
+mode:"show",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+custom_annotation:["Term","Villi","CTL01"],
+tracks:{
+	forward:{
+		ReadDepth:{color:'#525252',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL01_Villi.forward.Density.bedGraph.gz'},
+		CG:{color:'rgb(100,139,216)',bg:'#ffff80',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL01_Villi.forward.CG.bedGraph.gz'},
+		CHG:{color:'rgb(255,148,77)',bg:'#ededed',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL01_Villi.forward.CHG.bedGraph.gz'},
+		CHH:{color:'rgb(255,0,255)',bg:'#ededed',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL01_Villi.forward.CHH.bedGraph.gz'},
+		},
+	reverse:{
+		ReadDepth:{color:'#525252',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL01_Villi.reverse.Density.bedGraph.gz'},
+		CG:{color:'rgb(100,139,216)',bg:'#ffff80',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL01_Villi.reverse.CG.bedGraph.gz'},
+		CHG:{color:'rgb(255,148,77)',bg:'#ededed',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL01_Villi.reverse.CHG.bedGraph.gz'},
+		CHH:{color:'rgb(255,0,255)',bg:'#ededed',
+			url:'http://vizhub.wustl.edu/public/hg19/placenta/CTL01_Villi.reverse.CHH.bedGraph.gz'},
+		},
+	}
+},
+
+
+{type:'metadata',vocabulary:{
+
+'Sample':["Amnion","BasalPlate","ChorionSmooth","Trophoblast","Villi"],
+
+'Donor':["CTL07","CTL04","CTL05","CTL02","CTL01"],
+
+'Group':["2ndTrimester","Term"],
+
+     },
+
+show:['Group','Sample','Donor'],
+
+},
+
+]
+

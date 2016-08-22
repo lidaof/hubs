@@ -1,0 +1,17 @@
+[
+{
+    type:"hammock",
+    url:"http://vizhub.wustl.edu/public/hg19/fimo_motif/fimo.hg19.jaspar_core-0.1.hammock.gz",
+    name:"Fimo hg19 Jaspar",mode:"barplot",
+    showscoreidx:0,scorenamelst:["score"],
+    boxcolor:"#006600",textcolor:"#000000",
+},
+{
+    type:"hammock",
+    url:"http://vizhub.wustl.edu/public/hg19/fimo_motif/fimo.hg19.transfac-0.1.hammock.gz",
+    name:"Fimo hg19 Transfac",mode:"barplot",
+    showscoreidx:0,scorenamelst:["score"],
+    boxcolor:"#006600",textcolor:"#000000",
+},
+
+]

@@ -1,0 +1,17 @@
+[
+{
+    type:"methylC",
+    name:"toy example",
+    mode:"show",
+    height:70,
+    tracks:{
+            forward:{
+                        ReadDepth:{color:'#525252',
+                                    url:'http://vizhub.wustl.edu/public/hg18/pmid19829295/H1.forward.readDepth.bedGraph.gz'},
+                                            CG:{color:'rgb(100,139,216)',
+                                                                    bg:'#d9d9d9',
+                                                                                url:'http://vizhub.wustl.edu/public/hg18/pmid19829295/h1.f.cg.gz'},
+                                                                                        },
+                                                                                                }
+},
+]

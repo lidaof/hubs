@@ -1,0 +1,142 @@
+[
+
+{
+type:"bedgraph",
+url:"http://vizhub.wustl.edu/public/AGPv2/jsLAI/methylome/bedgraph_CpG_OTOB_BSR9.gz",
+name:"8112 methylome CpG",
+mode:"show",
+colorpositive:"#dd0000",
+height:50,
+barplot_bg:'#cccccc',
+custom_annotation:['8112','methylome'],
+},
+{
+type:"bedgraph",
+url:"http://vizhub.wustl.edu/public/AGPv2/jsLAI/methylome/bedgraph_CHG_OTOB_BSR9.gz",
+name:"8112 methylome CHG",
+mode:"show",
+colorpositive:"#00dd00",
+height:50,
+barplot_bg:'#cccccc',
+custom_annotation:['8112','methylome'],
+},
+{
+type:"bedgraph",
+url:"http://vizhub.wustl.edu/public/AGPv2/jsLAI/methylome/bedgraph_CpG_OTOB_BSR10.gz",
+name:"5003 methylome CpG",
+mode:"show",
+colorpositive:"#dd0000",
+height:50,
+barplot_bg:'#cccccc',
+custom_annotation:['5003','methylome'],
+},
+{
+type:"bedgraph",
+url:"http://vizhub.wustl.edu/public/AGPv2/jsLAI/methylome/bedgraph_CHG_OTOB_BSR10.gz",
+name:"5003 methylome CHG",
+mode:"show",
+colorpositive:"#00dd00",
+height:50,
+barplot_bg:'#cccccc',
+custom_annotation:['5003','methylome'],
+},
+{
+type:"bedgraph",
+url:"http://vizhub.wustl.edu/public/AGPv2/jsLAI/methylome/bedgraph_CpG_OTOB_BSR11.gz",
+name:"478 methylome CpG",
+mode:"show",
+colorpositive:"#dd0000",
+height:50,
+barplot_bg:'#cccccc',
+custom_annotation:['478','methylome'],
+},
+{
+type:"bedgraph",
+url:"http://vizhub.wustl.edu/public/AGPv2/jsLAI/methylome/bedgraph_CHG_OTOB_BSR11.gz",
+name:"478 methylome CHG",
+mode:"show",
+colorpositive:"#00dd00",
+height:50,
+barplot_bg:'#cccccc',
+custom_annotation:['478','methylome'],
+},
+{
+type:"bedgraph",
+url:"http://vizhub.wustl.edu/public/AGPv2/jsLAI/methylome/bedgraph_CpG_OTOB_BSR12.gz",
+name:"zheng58 methylome CpG",
+mode:"show",
+colorpositive:"#dd0000",
+height:50,
+barplot_bg:'#cccccc',
+custom_annotation:['zheng58','methylome'],
+},
+{
+type:"bedgraph",
+url:"http://vizhub.wustl.edu/public/AGPv2/jsLAI/methylome/bedgraph_CHG_OTOB_BSR12.gz",
+name:"zheng58 methylome CHG",
+mode:"show",
+colorpositive:"#00dd00",
+height:50,
+barplot_bg:'#cccccc',
+custom_annotation:['zheng58','methylome'],
+},
+
+
+{
+type:"bam",
+url:"http://vizhub.wustl.edu/public/AGPv2/jsLAI/RNA-seq/RNA_seq_libChen_478_2rep_mer.bam",
+name:"478 RNA-seq",
+mode:"full",
+custom_annotation:['478','RNA-seq'],
+},
+{
+type:"bam",
+url:"http://vizhub.wustl.edu/public/AGPv2/jsLAI/RNA-seq/RNA_seq_libChen_zheng58_2rep_mer.bam",
+name:"zheng58 RNA-seq",
+mode:"full",
+custom_annotation:['zheng58','RNA-seq'],
+},
+
+
+{
+type:"bed",
+url:"http://vizhub.wustl.edu/public/AGPv2/jsLAI/smRNA-seq/smRNA_478_bow_mul.srt.sorted.bed.gz",
+name:"478 smRNA",
+mode:"full",
+custom_annotation:['478','smRNA-seq'],
+},
+{
+type:"bed",
+url:"http://vizhub.wustl.edu/public/AGPv2/jsLAI/smRNA-seq/smRNA_5003_bow_mul.srt.sorted.bed.gz",
+name:"5003 smRNA",
+mode:"full",
+custom_annotation:['5003','smRNA-seq'],
+},
+{
+type:"bed",
+url:"http://vizhub.wustl.edu/public/AGPv2/jsLAI/smRNA-seq/smRNA_8112_bow_mul.srt.sorted.bed.gz",
+name:"8112 smRNA",
+mode:"full",
+custom_annotation:['8112','smRNA-seq'],
+},
+{
+type:"bed",
+url:"http://vizhub.wustl.edu/public/AGPv2/jsLAI/smRNA-seq/smRNA_Zheng58_bow_mul.srt.sorted.bed.gz",
+name:"zheng58 smRNA",
+mode:"full",
+custom_annotation:['zheng58','smRNA-seq'],
+},
+
+
+
+{
+type:'metadata',
+vocabulary:{
+	Line:['478','5003','8112','zheng58'],
+	Assay:['methylome','RNA-seq','smRNA-seq'],
+	},
+show:['Line','Assay'],
+tag:'Maize re-sequencing',
+},
+
+]

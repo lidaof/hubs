@@ -1,0 +1,310 @@
+[
+    {
+        "show_terms": {
+            "Sample": [
+                "Sample"
+            ], 
+            "Assay": [
+                "Assay"
+            ]
+        }, 
+        "vocabulary_set": {
+            "Sample": "http://vizhub.wustl.edu/metadata/human/Samples", 
+            "Donor": "http://vizhub.wustl.edu/metadata/human/Donor", 
+            "Assay": "http://vizhub.wustl.edu/metadata/Experimental_assays", 
+            "Institution": "http://vizhub.wustl.edu/metadata/Institutions", 
+            "private": {
+                "terms": {
+                    "11": [
+                        "Alignment"
+                    ], 
+                    "13": [
+                        "macs2signal_foldChange"
+                    ], 
+                    "12": [
+                        "macs2signal_pval"
+                    ], 
+                    "15": [
+                        "broadPeak"
+                    ], 
+                    "14": [
+                        "narrowPeak"
+                    ], 
+                    "16": [
+                        "gappedPeak"
+                    ]
+                }, 
+                "vocabulary": {
+                    "View": [
+                        "11", 
+                        "12", 
+                        "13", 
+                        "14", 
+                        "15", 
+                        "16"
+                    ]
+                }
+            }
+        }, 
+        "type": "metadata", 
+        "facet_table": [
+            "Sample", 
+            "Assay"
+        ]
+    }, 
+    {
+        "colorpositive": "#FF8C00", 
+        "url": "http://egg2.wustl.edu/roadmap/data/byFileType/signal/unconsolidated/foldChange/UCSD.IMR90.H3K4me1.SYL133.fc.signal.bigwig", 
+        "fixedscale": {
+            "max": 40, 
+            "min": 2
+        }, 
+        "metadata": {
+            "Sample": "11310", 
+            "Assay": "22010", 
+            "private": [
+                "13"
+            ]
+        }, 
+        "height": 20, 
+        "mode": "full", 
+        "detail_url": "http://vizhub.wustl.edu/tD/hg19/uc11310_22010_macs2signal_foldChange", 
+        "type": "bigWig", 
+        "public": true, 
+        "name": "IMR90 H3K4me1 foldChange signal"
+    }, 
+    {
+        "colorpositive": "#FF8C00", 
+        "url": "http://egg2.wustl.edu/roadmap/data/byFileType/signal/unconsolidated/foldChange/UCSD.IMR90.H3K4me1.SK04.fc.signal.bigwig", 
+        "fixedscale": {
+            "max": 40, 
+            "min": 2
+        }, 
+        "metadata": {
+            "Sample": "11310", 
+            "Assay": "22010", 
+            "private": [
+                "13"
+            ]
+        }, 
+        "height": 20, 
+        "mode": "full", 
+        "detail_url": "http://vizhub.wustl.edu/tD/hg19/uc11310_22010_macs2signal_foldChange", 
+        "type": "bigWig", 
+        "public": true, 
+        "name": "IMR90 H3K4me1 foldChange signal"
+    }, 
+    {
+        "colorpositive": "#FF8C00", 
+        "url": "http://egg2.wustl.edu/roadmap/data/byFileType/signal/unconsolidated/pval/UCSD.IMR90.H3K4me1.SYL133.pval.signal.bigwig", 
+        "fixedscale": {
+            "max": 40, 
+            "min": 2
+        }, 
+        "metadata": {
+            "Sample": "11310", 
+            "Assay": "22010", 
+            "private": [
+                "12"
+            ]
+        }, 
+        "height": 20, 
+        "mode": "full", 
+        "detail_url": "http://vizhub.wustl.edu/tD/hg19/uc11310_22010_macs2signal_pval", 
+        "type": "bigWig", 
+        "public": true, 
+        "name": "IMR90 H3K4me1 pval signal"
+    }, 
+    {
+        "colorpositive": "#FF8C00", 
+        "url": "http://egg2.wustl.edu/roadmap/data/byFileType/signal/unconsolidated/foldChange/UCSD.IMR90.H3K4me1.LL222.fc.signal.bigwig", 
+        "fixedscale": {
+            "max": 40, 
+            "min": 2
+        }, 
+        "metadata": {
+            "Sample": "11310", 
+            "Assay": "22010", 
+            "private": [
+                "13"
+            ]
+        }, 
+        "height": 20, 
+        "mode": "full", 
+        "detail_url": "http://vizhub.wustl.edu/tD/hg19/uc11310_22010_macs2signal_foldChange", 
+        "type": "bigWig", 
+        "public": true, 
+        "name": "IMR90 H3K4me1 foldChange signal"
+    }, 
+    {
+        "name": "H3K4me1 gappedPeak of IMR90", 
+        "url": "http://egg2.wustl.edu/roadmap/data/byFileType/peaks/unconsolidated/gappedPeak/hammock/UCSD.IMR90.H3K4me1.SK04.gappedPeak.hammock.gz", 
+        "scorenamelst": [
+            "signal value", 
+            "P value (-log10)", 
+            "Q value (-log10)"
+        ], 
+        "boxcolor": "#FF8C00", 
+        "metadata": {
+            "Sample": "11310", 
+            "Assay": "22010", 
+            "private": [
+                "16"
+            ]
+        }, 
+        "showscoreidx": 0, 
+        "defaultmode": "barplot", 
+        "detail_url": "http://vizhub.wustl.edu/tD/hg19/uc11310_22010_gappedPeak", 
+        "type": "hammock", 
+        "public": true, 
+        "mode": "barplot"
+    }, 
+    {
+        "name": "H3K4me1 gappedPeak of IMR90", 
+        "url": "http://egg2.wustl.edu/roadmap/data/byFileType/peaks/unconsolidated/gappedPeak/hammock/UCSD.IMR90.H3K4me1.LL222.gappedPeak.hammock.gz", 
+        "scorenamelst": [
+            "signal value", 
+            "P value (-log10)", 
+            "Q value (-log10)"
+        ], 
+        "boxcolor": "#FF8C00", 
+        "metadata": {
+            "Sample": "11310", 
+            "Assay": "22010", 
+            "private": [
+                "16"
+            ]
+        }, 
+        "showscoreidx": 0, 
+        "defaultmode": "barplot", 
+        "detail_url": "http://vizhub.wustl.edu/tD/hg19/uc11310_22010_gappedPeak", 
+        "type": "hammock", 
+        "public": true, 
+        "mode": "barplot"
+    }, 
+    {
+        "name": "H3K4me1 narrowPeak of IMR90", 
+        "url": "http://egg2.wustl.edu/roadmap/data/byFileType/peaks/unconsolidated/narrowPeak/hammock/UCSD.IMR90.H3K4me1.SYL133.narrowPeak.hammock.gz", 
+        "scorenamelst": [
+            "signal value", 
+            "P value (-log10)", 
+            "Q value (-log10)"
+        ], 
+        "boxcolor": "#FF8C00", 
+        "metadata": {
+            "Sample": "11310", 
+            "Assay": "22010", 
+            "private": [
+                "14"
+            ]
+        }, 
+        "showscoreidx": 0, 
+        "defaultmode": "barplot", 
+        "strokecolor": "#FF0000", 
+        "detail_url": "http://vizhub.wustl.edu/tD/hg19/uc11310_22010_narrowPeak", 
+        "type": "hammock", 
+        "public": true, 
+        "mode": "barplot"
+    }, 
+    {
+        "colorpositive": "#FF8C00", 
+        "url": "http://egg2.wustl.edu/roadmap/data/byFileType/signal/unconsolidated/pval/UCSD.IMR90.H3K4me1.LL222.pval.signal.bigwig", 
+        "fixedscale": {
+            "max": 40, 
+            "min": 2
+        }, 
+        "metadata": {
+            "Sample": "11310", 
+            "Assay": "22010", 
+            "private": [
+                "12"
+            ]
+        }, 
+        "height": 20, 
+        "mode": "full", 
+        "detail_url": "http://vizhub.wustl.edu/tD/hg19/uc11310_22010_macs2signal_pval", 
+        "type": "bigWig", 
+        "public": true, 
+        "name": "IMR90 H3K4me1 pval signal"
+    }, 
+    {
+        "colorpositive": "#FF8C00", 
+        "url": "http://egg2.wustl.edu/roadmap/data/byFileType/signal/unconsolidated/pval/UCSD.IMR90.H3K4me1.SK04.pval.signal.bigwig", 
+        "fixedscale": {
+            "max": 40, 
+            "min": 2
+        }, 
+        "metadata": {
+            "Sample": "11310", 
+            "Assay": "22010", 
+            "private": [
+                "12"
+            ]
+        }, 
+        "height": 20, 
+        "mode": "full", 
+        "detail_url": "http://vizhub.wustl.edu/tD/hg19/uc11310_22010_macs2signal_pval", 
+        "type": "bigWig", 
+        "public": true, 
+        "name": "IMR90 H3K4me1 pval signal"
+    }, 
+    {
+        "name": "H3K4me1 narrowPeak of IMR90", 
+        "url": "http://egg2.wustl.edu/roadmap/data/byFileType/peaks/unconsolidated/narrowPeak/hammock/UCSD.IMR90.H3K4me1.LL222.narrowPeak.hammock.gz", 
+        "scorenamelst": [
+            "signal value", 
+            "P value (-log10)", 
+            "Q value (-log10)"
+        ], 
+        "boxcolor": "#FF8C00", 
+        "metadata": {
+            "Sample": "11310", 
+            "Assay": "22010", 
+            "private": [
+                "14"
+            ]
+        }, 
+        "showscoreidx": 0, 
+        "defaultmode": "barplot", 
+        "strokecolor": "#FF0000", 
+        "detail_url": "http://vizhub.wustl.edu/tD/hg19/uc11310_22010_narrowPeak", 
+        "type": "hammock", 
+        "public": true, 
+        "mode": "barplot"
+    }, 
+    {
+        "type": "coordinate_override", 
+        "coord": "chr9,34752444,chr9,38668535"
+    }, 
+    {
+        "type": "native_track", 
+        "list": [
+            {
+                "mode": 3, 
+                "qtc": {
+                    "pr": 0, 
+                    "thpercentile": 95, 
+                    "fontbold": false, 
+                    "anglescale": 1, 
+                    "thmin": 0, 
+                    "pth": "#800000", 
+                    "height": 50, 
+                    "nb": 230, 
+                    "thmax": 10, 
+                    "summeth": 1, 
+                    "ng": 0, 
+                    "pb": 0, 
+                    "nth": "#000099", 
+                    "fontsize": "10pt", 
+                    "pg": 77, 
+                    "thtype": 0, 
+                    "bedcolor": "rgb(0, 128, 128)", 
+                    "textcolor": "rgb(0,0,0)", 
+                    "nr": 0, 
+                    "fontfamily": "sans-serif"
+                }, 
+                "name": "refGene"
+            }
+        ]
+    }
+]

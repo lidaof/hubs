@@ -1,0 +1,2979 @@
+[
+
+{
+type:"methylC",
+name:"H1 Cell Line WGBS",
+custom_annotation:['H1 Cell Line', 'WGBS'],
+mode:"show",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'ESC',
+'TYPE':'CellLine',
+'LAB':'BI;UCSD;UCSF-UBC',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'CL',
+'SEX (Male, Female, Mixed, Unknown)':'Male',
+'SOLID / LIQUID':'NA',
+'Ethnicity':'NA',
+'Single Donor (SD) /Composite (C)':'SD',
+'DONOR / SAMPLE ALIAS':'56;68;69;27276;27277;35081;35082;35083;CDI-01;H1-07;H1-09;H1-10;H1-12;H1-13;hESC-01;HS0995;HS0998-1;HS1032-1;HS1345-1;HS1346-1;HS1347-1',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E003.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E003.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E003.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E003.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"H1 BMP4 Derived Trophoblast Cultured Cells WGBS",
+custom_annotation:['H1 BMP4 Derived Trophoblast Cultured Cells', 'WGBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'ESC_DERIVED',
+'TYPE':'CellLineDerived',
+'LAB':'UCSD',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'CL',
+'SEX (Male, Female, Mixed, Unknown)':'Male',
+'SOLID / LIQUID':'NA',
+'Ethnicity':'NA',
+'Single Donor (SD) /Composite (C)':'SD',
+'DONOR / SAMPLE ALIAS':'BMP4-05;BMP4-06;BMP4-09',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E005.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E005.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E005.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E005.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"H1 Derived Neuronal Progenitor Cultured Cells WGBS",
+custom_annotation:['H1 Derived Neuronal Progenitor Cultured Cells', 'WGBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'ESC_DERIVED',
+'TYPE':'CellLineDerived',
+'LAB':'UCSD',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'CL',
+'SEX (Male, Female, Mixed, Unknown)':'Male',
+'SOLID / LIQUID':'NA',
+'Ethnicity':'NA',
+'Single Donor (SD) /Composite (C)':'SD',
+'DONOR / SAMPLE ALIAS':'NPC-03;NPC-04;NPC-05;NPC-06',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E007.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E007.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E007.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E007.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"hESC Derived CD184+ Endoderm Cultured Cells WGBS",
+custom_annotation:['hESC Derived CD184+ Endoderm Cultured Cells', 'WGBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'ESC_DERIVED',
+'TYPE':'CellLineDerived',
+'LAB':'BI',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'CL',
+'SEX (Male, Female, Mixed, Unknown)':'Male',
+'SOLID / LIQUID':'NA',
+'Ethnicity':'NA',
+'Single Donor (SD) /Composite (C)':'SD',
+'DONOR / SAMPLE ALIAS':'262;263',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E011.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E011.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E011.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E011.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"hESC Derived CD56+ Mesoderm Cultured Cells WGBS",
+custom_annotation:['hESC Derived CD56+ Mesoderm Cultured Cells', 'WGBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'ESC_DERIVED',
+'TYPE':'CellLineDerived',
+'LAB':'BI',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'CL',
+'SEX (Male, Female, Mixed, Unknown)':'Male',
+'SOLID / LIQUID':'NA',
+'Ethnicity':'NA',
+'Single Donor (SD) /Composite (C)':'SD',
+'DONOR / SAMPLE ALIAS':'BioSam_1249;BioSam_1250;BioSam_575;BioSam_577',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E013.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E013.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E013.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E013.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"IMR90 Cell Line WGBS",
+custom_annotation:['IMR90 Cell Line', 'WGBS'],
+mode:"show",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'LUNG',
+'TYPE':'CellLine',
+'LAB':'UCSD',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'CL',
+'SEX (Male, Female, Mixed, Unknown)':'Female',
+'SOLID / LIQUID':'NA',
+'Ethnicity':'NA',
+'Single Donor (SD) /Composite (C)':'SD',
+'DONOR / SAMPLE ALIAS':'IMR90_r1;IMR90-04;IMR90-05;IMR90-06;IMR90-07',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E017.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E017.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E017.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E017.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"iPS DF 19.11 Cell Line WGBS",
+custom_annotation:['iPS DF 19.11 Cell Line', 'WGBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'IPSC',
+'TYPE':'CellLine',
+'LAB':'UCSD',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'CL',
+'SEX (Male, Female, Mixed, Unknown)':'Male',
+'SOLID / LIQUID':'NA',
+'Ethnicity':'NA',
+'Single Donor (SD) /Composite (C)':'SD',
+'DONOR / SAMPLE ALIAS':'iPS-19.11-01;iPS-19.11-02',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E022.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E022.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E022.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E022.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"Mobilized CD34 Primary Cells Female WGBS",
+custom_annotation:['Mobilized CD34 Primary Cells Female', 'WGBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'BLOOD',
+'TYPE':'PrimaryCell',
+'LAB':'BI',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'Fetus (GW unknown)',
+'SEX (Male, Female, Mixed, Unknown)':'Mixed',
+'SOLID / LIQUID':'LIQUID',
+'Ethnicity':'Unknown',
+'Single Donor (SD) /Composite (C)':'C',
+'DONOR / SAMPLE ALIAS':'RO_01480;RO_01508;RO_01536;RO_01549;UW_RO_01480',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E050.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E050.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E050.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E050.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"Neurosphere Cultured Cells Ganglionic Eminence Derived WGBS",
+custom_annotation:['Neurosphere Cultured Cells Ganglionic Eminence Derived', 'WGBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'BRAIN',
+'TYPE':'PrimaryCell',
+'LAB':'UCSF-UBC',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'17GW',
+'SEX (Male, Female, Mixed, Unknown)':'Female',
+'SOLID / LIQUID':'SOLID',
+'Ethnicity':'Unknown',
+'Single Donor (SD) /Composite (C)':'SD',
+'DONOR / SAMPLE ALIAS':'HuFNSC02',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E054.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E054.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E054.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E054.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"Aorta WGBS",
+custom_annotation:['Aorta', 'WGBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'VASCULAR',
+'TYPE':'PrimaryTissue',
+'LAB':'UCSD',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'34Y',
+'SEX (Male, Female, Mixed, Unknown)':'Male',
+'SOLID / LIQUID':'SOLID',
+'Ethnicity':'Caucasian',
+'Single Donor (SD) /Composite (C)':'SD',
+'DONOR / SAMPLE ALIAS':'STL003',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E065.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E065.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E065.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E065.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"Brain Germinal Matrix WGBS",
+custom_annotation:['Brain Germinal Matrix', 'WGBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'BRAIN',
+'TYPE':'PrimaryTissue',
+'LAB':'UCSF-UBC',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'20GW',
+'SEX (Male, Female, Mixed, Unknown)':'Male',
+'SOLID / LIQUID':'SOLID',
+'Ethnicity':'Unknown',
+'Single Donor (SD) /Composite (C)':'SD',
+'DONOR / SAMPLE ALIAS':'HuFGM02',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E070.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E070.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E070.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E070.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"Esophagus WGBS",
+custom_annotation:['Esophagus', 'WGBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'GI_ESOPHAGUS',
+'TYPE':'PrimaryTissue',
+'LAB':'UCSD',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'34Y',
+'SEX (Male, Female, Mixed, Unknown)':'Male',
+'SOLID / LIQUID':'SOLID',
+'Ethnicity':'Caucasian',
+'Single Donor (SD) /Composite (C)':'SD',
+'DONOR / SAMPLE ALIAS':'STL003',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E079.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E079.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E079.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E079.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"Fetal Intestine Small WGBS",
+custom_annotation:['Fetal Intestine Small', 'WGBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'GI_INTESTINE',
+'TYPE':'PrimaryTissue',
+'LAB':'UW',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'15GW',
+'SEX (Male, Female, Mixed, Unknown)':'Male',
+'Ethnicity':'Unknown',
+'Single Donor (SD) /Composite (C)':'SD',
+'DONOR / SAMPLE ALIAS':'H-24595',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E085.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E085.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E085.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E085.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"Left Ventricle WGBS",
+custom_annotation:['Left Ventricle', 'WGBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'HEART',
+'TYPE':'PrimaryTissue',
+'LAB':'UCSD',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'3Y, 34Y',
+'SEX (Male, Female, Mixed, Unknown)':'Male',
+'SOLID / LIQUID':'SOLID',
+'Ethnicity':'Caucasian/African American, Caucasian',
+'Single Donor (SD) /Composite (C)':'C',
+'DONOR / SAMPLE ALIAS':'STL001;STL003',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E095.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E095.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E095.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E095.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"Ovary WGBS",
+custom_annotation:['Ovary', 'WGBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'OVARY',
+'TYPE':'PrimaryTissue',
+'LAB':'UCSD',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'30Y',
+'SEX (Male, Female, Mixed, Unknown)':'Female',
+'SOLID / LIQUID':'SOLID',
+'Ethnicity':'Caucasian',
+'Single Donor (SD) /Composite (C)':'SD',
+'DONOR / SAMPLE ALIAS':'STL002',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E097.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E097.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E097.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E097.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"Psoas Muscle WGBS",
+custom_annotation:['Psoas Muscle', 'WGBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'MUSCLE',
+'TYPE':'PrimaryTissue',
+'LAB':'UCSD',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'3Y, 34Y',
+'SEX (Male, Female, Mixed, Unknown)':'Male',
+'SOLID / LIQUID':'SOLID',
+'Ethnicity':'Caucasian/African American, Caucasian',
+'Single Donor (SD) /Composite (C)':'C',
+'DONOR / SAMPLE ALIAS':'STL001;STL003',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E100.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E100.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E100.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E100.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"Right Ventricle WGBS",
+custom_annotation:['Right Ventricle', 'WGBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'HEART',
+'TYPE':'PrimaryTissue',
+'LAB':'UCSD',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'3Y, 34Y',
+'SEX (Male, Female, Mixed, Unknown)':'Male',
+'SOLID / LIQUID':'SOLID',
+'Ethnicity':'Caucasian/African American, Caucasian',
+'Single Donor (SD) /Composite (C)':'C',
+'DONOR / SAMPLE ALIAS':'STL001;STL003',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E105.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E105.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E105.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E105.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"Small Intestine WGBS",
+custom_annotation:['Small Intestine', 'WGBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'GI_INTESTINE',
+'TYPE':'PrimaryTissue',
+'LAB':'UCSD',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'3Y, 34Y',
+'SEX (Male, Female, Mixed, Unknown)':'Male',
+'SOLID / LIQUID':'SOLID',
+'Ethnicity':'Caucasian/African American, Caucasian',
+'Single Donor (SD) /Composite (C)':'C',
+'DONOR / SAMPLE ALIAS':'STL001;STL003',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E109.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E109.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E109.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E109.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"Spleen WGBS",
+custom_annotation:['Spleen', 'WGBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'SPLEEN',
+'TYPE':'PrimaryTissue',
+'LAB':'UCSD',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'34Y',
+'SEX (Male, Female, Mixed, Unknown)':'Male',
+'SOLID / LIQUID':'SOLID',
+'Ethnicity':'Caucasian',
+'Single Donor (SD) /Composite (C)':'SD',
+'DONOR / SAMPLE ALIAS':'STL003',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E113.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E113.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E113.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E113.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"H1 BMP4 Derived Mesendoderm Cultured Cells WGBS",
+custom_annotation:['H1 BMP4 Derived Mesendoderm Cultured Cells', 'WGBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'ESC_DERIVED',
+'TYPE':'CellLineDerived',
+'LAB':'UCSD',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'CL',
+'SEX (Male, Female, Mixed, Unknown)':'Male',
+'SOLID / LIQUID':'NA',
+'Ethnicity':'NA',
+'Single Donor (SD) /Composite (C)':'SD',
+'DONOR / SAMPLE ALIAS':'BMP4-03;BMP4-04;BMP4-07;BMP4-08',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E004.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E004.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E004.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E004.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"H1 Derived Mesenchymal Stem Cells WGBS",
+custom_annotation:['H1 Derived Mesenchymal Stem Cells', 'WGBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'ESC_DERIVED',
+'TYPE':'CellLineDerived',
+'LAB':'UCSD',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'CL',
+'SEX (Male, Female, Mixed, Unknown)':'Male',
+'SOLID / LIQUID':'NA',
+'Ethnicity':'NA',
+'Single Donor (SD) /Composite (C)':'SD',
+'DONOR / SAMPLE ALIAS':'MSC-01;MSC-02',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E006.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E006.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E006.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E006.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"H9 Cell Line WGBS",
+custom_annotation:['H9 Cell Line', 'WGBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'ESC',
+'TYPE':'CellLine',
+'LAB':'UCSD',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'CL',
+'SEX (Male, Female, Mixed, Unknown)':'Female',
+'SOLID / LIQUID':'NA',
+'Ethnicity':'NA',
+'Single Donor (SD) /Composite (C)':'SD',
+'DONOR / SAMPLE ALIAS':'H9-01;H9-02;H9-04',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E008.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E008.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E008.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E008.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"hESC Derived CD56+ Ectoderm Cultured Cells WGBS",
+custom_annotation:['hESC Derived CD56+ Ectoderm Cultured Cells', 'WGBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'ESC_DERIVED',
+'TYPE':'CellLineDerived',
+'LAB':'BI',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'CL',
+'SEX (Male, Female, Mixed, Unknown)':'Male',
+'SOLID / LIQUID':'NA',
+'Ethnicity':'NA',
+'Single Donor (SD) /Composite (C)':'SD',
+'DONOR / SAMPLE ALIAS':'BioSam_1247;BioSam_1248;BioSam_707',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E012.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E012.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E012.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E012.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"HUES64 Cell Line WGBS",
+custom_annotation:['HUES64 Cell Line', 'WGBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'ESC',
+'TYPE':'CellLine',
+'LAB':'BI',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'CL',
+'SEX (Male, Female, Mixed, Unknown)':'Male',
+'SOLID / LIQUID':'NA',
+'Ethnicity':'NA',
+'Single Donor (SD) /Composite (C)':'SD',
+'DONOR / SAMPLE ALIAS':'196;202;BioSam_825',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E016.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E016.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E016.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E016.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"iPS DF 6.9 Cell Line WGBS",
+custom_annotation:['iPS DF 6.9 Cell Line', 'WGBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'IPSC',
+'TYPE':'CellLine',
+'LAB':'UCSD',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'CL',
+'SEX (Male, Female, Mixed, Unknown)':'Male',
+'SOLID / LIQUID':'NA',
+'Ethnicity':'NA',
+'Single Donor (SD) /Composite (C)':'SD',
+'DONOR / SAMPLE ALIAS':'iPS-6.9-01;iPS-6.9-02',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E021.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E021.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E021.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E021.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"4star WGBS",
+custom_annotation:['4star', 'WGBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'ESC',
+'TYPE':'CellLine',
+'LAB':'UCSF-UBC',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'CL',
+'SEX (Male, Female, Mixed, Unknown)':'Female',
+'SOLID / LIQUID':'NA',
+'Ethnicity':'NA',
+'Single Donor (SD) /Composite (C)':'SD',
+'DONOR / SAMPLE ALIAS':'UCSF-4*_Cell_Line_hESC',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E024.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E024.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E024.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E024.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"Neurosphere Cultured Cells Cortex Derived WGBS",
+custom_annotation:['Neurosphere Cultured Cells Cortex Derived', 'WGBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'BRAIN',
+'TYPE':'PrimaryCell',
+'LAB':'UCSF-UBC',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'17GW',
+'SEX (Male, Female, Mixed, Unknown)':'Female',
+'SOLID / LIQUID':'SOLID',
+'Ethnicity':'Unknown',
+'Single Donor (SD) /Composite (C)':'SD',
+'DONOR / SAMPLE ALIAS':'HuFNSC02',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E053.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E053.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E053.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E053.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"Penis Foreskin Keratinocyte Primary Cells skin03 WGBS",
+custom_annotation:['Penis Foreskin Keratinocyte Primary Cells skin03', 'WGBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'SKIN',
+'TYPE':'PrimaryCell',
+'LAB':'UCSF-UBC',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'0Y',
+'SEX (Male, Female, Mixed, Unknown)':'Male',
+'SOLID / LIQUID':'SOLID',
+'Ethnicity':'Unknown',
+'Single Donor (SD) /Composite (C)':'SD',
+'DONOR / SAMPLE ALIAS':'skin03',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E058.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E058.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E058.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E058.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"Adult Liver WGBS",
+custom_annotation:['Adult Liver', 'WGBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'LIVER',
+'TYPE':'PrimaryTissue',
+'LAB':'BI',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'Unknown',
+'SEX (Male, Female, Mixed, Unknown)':'Mixed',
+'SOLID / LIQUID':'SOLID',
+'Ethnicity':'Unknown',
+'Single Donor (SD) /Composite (C)':'C',
+'DONOR / SAMPLE ALIAS':'3;4;5',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E066.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E066.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E066.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E066.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"Brain Hippocampus Middle WGBS",
+custom_annotation:['Brain Hippocampus Middle', 'WGBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'BRAIN',
+'TYPE':'PrimaryTissue',
+'LAB':'BI',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'81Y, 73Y',
+'SEX (Male, Female, Mixed, Unknown)':'Male',
+'SOLID / LIQUID':'SOLID',
+'Ethnicity':'Unknown',
+'Single Donor (SD) /Composite (C)':'C',
+'DONOR / SAMPLE ALIAS':'149;150',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E071.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E071.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E071.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E071.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"Fetal Intestine Large WGBS",
+custom_annotation:['Fetal Intestine Large', 'WGBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'GI_INTESTINE',
+'TYPE':'PrimaryTissue',
+'LAB':'UW',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'15GW',
+'SEX (Male, Female, Mixed, Unknown)':'Male',
+'Ethnicity':'Unknown',
+'Single Donor (SD) /Composite (C)':'SD',
+'DONOR / SAMPLE ALIAS':'H-24595',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E084.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E084.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E084.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E084.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"Gastric WGBS",
+custom_annotation:['Gastric', 'WGBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'GI_STOMACH',
+'TYPE':'PrimaryTissue',
+'LAB':'UCSD',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'34Y',
+'SEX (Male, Female, Mixed, Unknown)':'Male',
+'SOLID / LIQUID':'SOLID',
+'Ethnicity':'Caucasian',
+'Single Donor (SD) /Composite (C)':'SD',
+'DONOR / SAMPLE ALIAS':'STL003',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E094.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E094.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E094.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E094.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"Lung WGBS",
+custom_annotation:['Lung', 'WGBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'LUNG',
+'TYPE':'PrimaryTissue',
+'LAB':'UCSD',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'30Y',
+'SEX (Male, Female, Mixed, Unknown)':'Female',
+'SOLID / LIQUID':'SOLID',
+'Ethnicity':'Caucasian',
+'Single Donor (SD) /Composite (C)':'SD',
+'DONOR / SAMPLE ALIAS':'STL002',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E096.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E096.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E096.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E096.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"Pancreas WGBS",
+custom_annotation:['Pancreas', 'WGBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'PANCREAS',
+'TYPE':'PrimaryTissue',
+'LAB':'UCSD',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'34Y',
+'SEX (Male, Female, Mixed, Unknown)':'Male',
+'SOLID / LIQUID':'SOLID',
+'Ethnicity':'Caucasian',
+'Single Donor (SD) /Composite (C)':'SD',
+'DONOR / SAMPLE ALIAS':'STL003',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E098.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E098.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E098.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E098.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"Right Atrium WGBS",
+custom_annotation:['Right Atrium', 'WGBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'HEART',
+'TYPE':'PrimaryTissue',
+'LAB':'UCSD',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'34Y',
+'SEX (Male, Female, Mixed, Unknown)':'Male',
+'SOLID / LIQUID':'SOLID',
+'Ethnicity':'Caucasian',
+'Single Donor (SD) /Composite (C)':'SD',
+'DONOR / SAMPLE ALIAS':'STL003',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E104.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E104.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E104.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E104.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"Sigmoid Colon WGBS",
+custom_annotation:['Sigmoid Colon', 'WGBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'GI_COLON',
+'TYPE':'PrimaryTissue',
+'LAB':'UCSD',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'3Y, 34Y',
+'SEX (Male, Female, Mixed, Unknown)':'Male',
+'SOLID / LIQUID':'SOLID',
+'Ethnicity':'Caucasian/African American, Caucasian',
+'Single Donor (SD) /Composite (C)':'C',
+'DONOR / SAMPLE ALIAS':'STL001;STL003',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E106.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E106.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E106.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E106.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"Thymus WGBS",
+custom_annotation:['Thymus', 'WGBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'THYMUS',
+'TYPE':'PrimaryTissue',
+'LAB':'UCSD',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'3Y',
+'SEX (Male, Female, Mixed, Unknown)':'Male',
+'SOLID / LIQUID':'SOLID',
+'Ethnicity':'Caucasian/African American',
+'Single Donor (SD) /Composite (C)':'SD',
+'DONOR / SAMPLE ALIAS':'STL001',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E112.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E112.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E112.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/WGBS/E112.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"ES-I3 Cell Line RRBS",
+custom_annotation:['ES-I3 Cell Line', 'RRBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'ESC',
+'TYPE':'CellLine',
+'LAB':'BI',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'CL',
+'SEX (Male, Female, Mixed, Unknown)':'Female',
+'SOLID / LIQUID':'NA',
+'Ethnicity':'NA',
+'Single Donor (SD) /Composite (C)':'SD',
+'DONOR / SAMPLE ALIAS':'60;31436;35589;35592;35593;35594;40338;40339;40340;40585;40586;42133',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E001.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E001.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E001.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E001.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"H9 Cell Line RRBS",
+custom_annotation:['H9 Cell Line', 'RRBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'ESC',
+'TYPE':'CellLine',
+'LAB':'UCSD',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'CL',
+'SEX (Male, Female, Mixed, Unknown)':'Female',
+'SOLID / LIQUID':'NA',
+'Ethnicity':'NA',
+'Single Donor (SD) /Composite (C)':'SD',
+'DONOR / SAMPLE ALIAS':'H9-01;H9-02;H9-04',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E008.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E008.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E008.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E008.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"hESC Derived CD184+ Endoderm Cultured Cells RRBS",
+custom_annotation:['hESC Derived CD184+ Endoderm Cultured Cells', 'RRBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'ESC_DERIVED',
+'TYPE':'CellLineDerived',
+'LAB':'BI',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'CL',
+'SEX (Male, Female, Mixed, Unknown)':'Male',
+'SOLID / LIQUID':'NA',
+'Ethnicity':'NA',
+'Single Donor (SD) /Composite (C)':'SD',
+'DONOR / SAMPLE ALIAS':'262;263',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E011.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E011.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E011.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E011.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"iPS-15b Cell Line RRBS",
+custom_annotation:['iPS-15b Cell Line', 'RRBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'IPSC',
+'TYPE':'CellLine',
+'LAB':'BI',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'CL',
+'SEX (Male, Female, Mixed, Unknown)':'Female',
+'SOLID / LIQUID':'NA',
+'Ethnicity':'NA',
+'Single Donor (SD) /Composite (C)':'SD',
+'DONOR / SAMPLE ALIAS':'62',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E018.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E018.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E018.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E018.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"Bone Marrow Derived Mesenchymal Stem Cell Cultured Cells RRBS",
+custom_annotation:['Bone Marrow Derived Mesenchymal Stem Cell Cultured Cells', 'RRBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'STROMAL_CONNECTIVE',
+'TYPE':'PrimaryCell',
+'LAB':'BI',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'57Y, unknown, unkown, unkown',
+'SEX (Male, Female, Mixed, Unknown)':'Unknown',
+'SOLID / LIQUID':'SOLID',
+'Ethnicity':'Unknown',
+'Single Donor (SD) /Composite (C)':'SD',
+'DONOR / SAMPLE ALIAS':'57;58;59;60',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E026.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E026.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E026.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E026.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"CD3 Primary Cells Cord BI RRBS",
+custom_annotation:['CD3 Primary Cells Cord BI', 'RRBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'BLOOD',
+'TYPE':'PrimaryCell',
+'LAB':'BI',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'Fetus (GW unknown)',
+'SEX (Male, Female, Mixed, Unknown)':'Unknown',
+'SOLID / LIQUID':'LIQUID',
+'Ethnicity':'Unknown',
+'Single Donor (SD) /Composite (C)':'C',
+'DONOR / SAMPLE ALIAS':'CD3_39661;CD3_39804;CD3_39811;CD3_39840',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E033.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E033.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E033.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E033.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"Mobilized CD34 Primary Cells Female RRBS",
+custom_annotation:['Mobilized CD34 Primary Cells Female', 'RRBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'BLOOD',
+'TYPE':'PrimaryCell',
+'LAB':'BI',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'Fetus (GW unknown)',
+'SEX (Male, Female, Mixed, Unknown)':'Mixed',
+'SOLID / LIQUID':'LIQUID',
+'Ethnicity':'Unknown',
+'Single Donor (SD) /Composite (C)':'C',
+'DONOR / SAMPLE ALIAS':'RO_01480;RO_01508;RO_01536;RO_01549;UW_RO_01480',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E050.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E050.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E050.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E050.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"Brain Anterior Caudate RRBS",
+custom_annotation:['Brain Anterior Caudate', 'RRBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'BRAIN',
+'TYPE':'PrimaryTissue',
+'LAB':'BI',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'75Y, 81Y',
+'SEX (Male, Female, Mixed, Unknown)':'Mixed',
+'SOLID / LIQUID':'SOLID',
+'Ethnicity':'Unknown',
+'Single Donor (SD) /Composite (C)':'C',
+'DONOR / SAMPLE ALIAS':'112;149',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E068.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E068.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E068.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E068.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"Brain Mid Frontal Lobe RRBS",
+custom_annotation:['Brain Mid Frontal Lobe', 'RRBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'BRAIN',
+'TYPE':'PrimaryTissue',
+'LAB':'BI',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'75Y, 81Y',
+'SEX (Male, Female, Mixed, Unknown)':'Mixed',
+'SOLID / LIQUID':'SOLID',
+'Ethnicity':'Unknown',
+'Single Donor (SD) /Composite (C)':'C',
+'DONOR / SAMPLE ALIAS':'112;149',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E073.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E073.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E073.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E073.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"Colon Smooth Muscle RRBS",
+custom_annotation:['Colon Smooth Muscle', 'RRBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'GI_COLON',
+'TYPE':'PrimaryTissue',
+'LAB':'BI',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'56Y, 77Y',
+'SEX (Male, Female, Mixed, Unknown)':'Female',
+'SOLID / LIQUID':'SOLID',
+'Ethnicity':'Caucasian',
+'Single Donor (SD) /Composite (C)':'C',
+'DONOR / SAMPLE ALIAS':'156;83_REMC_18',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E076.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E076.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E076.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E076.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"Fetal Heart RRBS",
+custom_annotation:['Fetal Heart', 'RRBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'HEART',
+'TYPE':'PrimaryTissue',
+'LAB':'BI',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'14GW, 15GW, 13GW',
+'SEX (Male, Female, Mixed, Unknown)':'Mixed',
+'SOLID / LIQUID':'SOLID',
+'Ethnicity':'Unknown',
+'Single Donor (SD) /Composite (C)':'C',
+'DONOR / SAMPLE ALIAS':'H-22727;H-23524;UW_H23914',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E083.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E083.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E083.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E083.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"Fetal Lung RRBS",
+custom_annotation:['Fetal Lung', 'RRBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'LUNG',
+'TYPE':'PrimaryTissue',
+'LAB':'BI',
+'SEX (Male, Female, Mixed, Unknown)':'Female/Unknown',
+'Single Donor (SD) /Composite (C)':'C',
+'DONOR / SAMPLE ALIAS':'H-22727;UW_H23266;UW_H23284',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E088.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E088.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E088.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E088.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"Rectal Smooth Muscle RRBS",
+custom_annotation:['Rectal Smooth Muscle', 'RRBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'GI_RECTUM',
+'TYPE':'PrimaryTissue',
+'LAB':'BI',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'50Y',
+'SEX (Male, Female, Mixed, Unknown)':'Female',
+'SOLID / LIQUID':'SOLID',
+'Ethnicity':'Caucasian',
+'Single Donor (SD) /Composite (C)':'SD',
+'DONOR / SAMPLE ALIAS':'30',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E103.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E103.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E103.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E103.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"Stomach Mucosa RRBS",
+custom_annotation:['Stomach Mucosa', 'RRBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'GI_STOMACH',
+'TYPE':'PrimaryTissue',
+'LAB':'BI',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'59Y',
+'SEX (Male, Female, Mixed, Unknown)':'Male',
+'SOLID / LIQUID':'SOLID',
+'Ethnicity':'Caucasian',
+'Single Donor (SD) /Composite (C)':'SD',
+'DONOR / SAMPLE ALIAS':'157',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E110.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E110.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E110.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E110.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"GM12878 Lymphoblastoid RRBS",
+custom_annotation:['GM12878 Lymphoblastoid', 'RRBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'BLOOD',
+'TYPE':'CellLine',
+'LAB':'BI',
+'SEX (Male, Female, Mixed, Unknown)':'Female',
+'DONOR / SAMPLE ALIAS':'GM12878',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E116.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E116.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E116.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E116.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"HMEC Mammary Epithelial RRBS",
+custom_annotation:['HMEC Mammary Epithelial', 'RRBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'BREAST',
+'TYPE':'CellLine',
+'LAB':'BI',
+'SEX (Male, Female, Mixed, Unknown)':'Unknown',
+'DONOR / SAMPLE ALIAS':'HMEC',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E119.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E119.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E119.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E119.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"K562 Leukemia RRBS",
+custom_annotation:['K562 Leukemia', 'RRBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'BLOOD',
+'TYPE':'CellLine',
+'LAB':'BI',
+'SEX (Male, Female, Mixed, Unknown)':'Female',
+'DONOR / SAMPLE ALIAS':'K562',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E123.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E123.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E123.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E123.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"Osteoblasts RRBS",
+custom_annotation:['Osteoblasts', 'RRBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'BONE',
+'TYPE':'CellLine',
+'LAB':'BI',
+'SEX (Male, Female, Mixed, Unknown)':'Unknown',
+'DONOR / SAMPLE ALIAS':'Osteobl',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E129.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E129.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E129.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E129.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"ES-WA7 Cell Line RRBS",
+custom_annotation:['ES-WA7 Cell Line', 'RRBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'ESC',
+'TYPE':'CellLine',
+'LAB':'BI',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'CL',
+'SEX (Male, Female, Mixed, Unknown)':'Female',
+'SOLID / LIQUID':'NA',
+'Ethnicity':'NA',
+'Single Donor (SD) /Composite (C)':'SD',
+'DONOR / SAMPLE ALIAS':'58;35206;35207;35208;35210;36544',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E002.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E002.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E002.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E002.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"H9 Derived Neuronal Progenitor Cultured Cells RRBS",
+custom_annotation:['H9 Derived Neuronal Progenitor Cultured Cells', 'RRBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'ESC_DERIVED',
+'TYPE':'CellLineDerived',
+'LAB':'BI',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'CL',
+'SEX (Male, Female, Mixed, Unknown)':'Female',
+'SOLID / LIQUID':'NA',
+'Ethnicity':'NA',
+'Single Donor (SD) /Composite (C)':'SD',
+'DONOR / SAMPLE ALIAS':'113',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E009.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E009.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E009.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E009.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"HUES48 Cell Line RRBS",
+custom_annotation:['HUES48 Cell Line', 'RRBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'ESC',
+'TYPE':'CellLine',
+'LAB':'BI',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'CL',
+'SEX (Male, Female, Mixed, Unknown)':'Female',
+'SOLID / LIQUID':'NA',
+'Ethnicity':'NA',
+'Single Donor (SD) /Composite (C)':'SD',
+'DONOR / SAMPLE ALIAS':'197;201;BioSam_824',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E014.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E014.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E014.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E014.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"iPS-18 Cell Line RRBS",
+custom_annotation:['iPS-18 Cell Line', 'RRBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'IPSC',
+'TYPE':'CellLine',
+'LAB':'BI',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'CL',
+'SEX (Male, Female, Mixed, Unknown)':'Female',
+'SOLID / LIQUID':'NA',
+'Ethnicity':'NA',
+'Single Donor (SD) /Composite (C)':'SD',
+'DONOR / SAMPLE ALIAS':'39791;46575;46576;46578;46579;46580;BioSam_173',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E019.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E019.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E019.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E019.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"CD15 Primary Cells RRBS",
+custom_annotation:['CD15 Primary Cells', 'RRBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'BLOOD',
+'TYPE':'PrimaryCell',
+'LAB':'BI',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'Fetus (GW unknown)',
+'SEX (Male, Female, Mixed, Unknown)':'Male',
+'SOLID / LIQUID':'LIQUID',
+'Ethnicity':'Unknown',
+'Single Donor (SD) /Composite (C)':'SD',
+'DONOR / SAMPLE ALIAS':'23',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E030.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E030.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E030.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E030.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"CD34 Primary Cells RRBS",
+custom_annotation:['CD34 Primary Cells', 'RRBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'BLOOD',
+'TYPE':'PrimaryCell',
+'LAB':'BI',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'Fetus (GW unknown)',
+'SEX (Male, Female, Mixed, Unknown)':'Unknown',
+'SOLID / LIQUID':'LIQUID',
+'Ethnicity':'Unknown',
+'Single Donor (SD) /Composite (C)':'C',
+'DONOR / SAMPLE ALIAS':'CD34_39629;CD34_39661;CD34_39804;CD34_39811;CD34_39889',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E035.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E035.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E035.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E035.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"Mobilized CD34 Primary Cells Male RRBS",
+custom_annotation:['Mobilized CD34 Primary Cells Male', 'RRBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'BLOOD',
+'TYPE':'PrimaryCell',
+'LAB':'BI',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'42Y',
+'SEX (Male, Female, Mixed, Unknown)':'Male',
+'SOLID / LIQUID':'LIQUID',
+'Ethnicity':'Caucasian',
+'Single Donor (SD) /Composite (C)':'SD',
+'DONOR / SAMPLE ALIAS':'RO_01562',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E051.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E051.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E051.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E051.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"Brain Cingulate Gyrus RRBS",
+custom_annotation:['Brain Cingulate Gyrus', 'RRBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'BRAIN',
+'TYPE':'PrimaryTissue',
+'LAB':'BI',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'75Y, 81Y',
+'SEX (Male, Female, Mixed, Unknown)':'Mixed',
+'SOLID / LIQUID':'SOLID',
+'Ethnicity':'Unknown',
+'Single Donor (SD) /Composite (C)':'C',
+'DONOR / SAMPLE ALIAS':'112;149',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E069.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E069.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E069.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E069.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"Brain Substantia Nigra RRBS",
+custom_annotation:['Brain Substantia Nigra', 'RRBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'BRAIN',
+'TYPE':'PrimaryTissue',
+'LAB':'BI',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'75Y, 81Y',
+'SEX (Male, Female, Mixed, Unknown)':'Mixed',
+'SOLID / LIQUID':'SOLID',
+'Ethnicity':'Unknown',
+'Single Donor (SD) /Composite (C)':'C',
+'DONOR / SAMPLE ALIAS':'112;149',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E074.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E074.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E074.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E074.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"Duodenum Mucosa RRBS",
+custom_annotation:['Duodenum Mucosa', 'RRBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'GI_DUODENUM',
+'TYPE':'PrimaryTissue',
+'LAB':'BI',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'76Y',
+'SEX (Male, Female, Mixed, Unknown)':'Male',
+'SOLID / LIQUID':'SOLID',
+'Ethnicity':'Caucasian',
+'Single Donor (SD) /Composite (C)':'SD',
+'DONOR / SAMPLE ALIAS':'61',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E077.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E077.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E077.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E077.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"Fetal Kidney RRBS",
+custom_annotation:['Fetal Kidney', 'RRBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'KIDNEY',
+'TYPE':'PrimaryTissue',
+'LAB':'BI',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'17GW',
+'SEX (Male, Female, Mixed, Unknown)':'Unknown',
+'SOLID / LIQUID':'SOLID',
+'Ethnicity':'Unknown',
+'Single Donor (SD) /Composite (C)':'SD',
+'DONOR / SAMPLE ALIAS':'H-22676',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E086.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E086.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E086.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E086.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"Rectal Mucosa.Donor 29 RRBS",
+custom_annotation:['Rectal Mucosa.Donor 29', 'RRBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'GI_RECTUM',
+'TYPE':'PrimaryTissue',
+'LAB':'BI',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'50Y',
+'SEX (Male, Female, Mixed, Unknown)':'Female',
+'SOLID / LIQUID':'SOLID',
+'Ethnicity':'Caucasian',
+'Single Donor (SD) /Composite (C)':'SD',
+'DONOR / SAMPLE ALIAS':'29',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E101.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E101.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E101.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E101.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"Skeletal Muscle Male RRBS",
+custom_annotation:['Skeletal Muscle Male', 'RRBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'MUSCLE',
+'TYPE':'PrimaryTissue',
+'LAB':'BI',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'54Y',
+'SEX (Male, Female, Mixed, Unknown)':'Male',
+'SOLID / LIQUID':'SOLID',
+'Ethnicity':'Caucasian',
+'Single Donor (SD) /Composite (C)':'SD',
+'DONOR / SAMPLE ALIAS':'63',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E107.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E107.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E107.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E107.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"Stomach Smooth Muscle RRBS",
+custom_annotation:['Stomach Smooth Muscle', 'RRBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'GI_STOMACH',
+'TYPE':'PrimaryTissue',
+'LAB':'BI',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'84Y',
+'SEX (Male, Female, Mixed, Unknown)':'Female',
+'SOLID / LIQUID':'SOLID',
+'Ethnicity':'Caucasian',
+'Single Donor (SD) /Composite (C)':'SD',
+'DONOR / SAMPLE ALIAS':'28',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E111.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E111.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E111.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E111.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"HeLa-S3 Cervical Carcinoma RRBS",
+custom_annotation:['HeLa-S3 Cervical Carcinoma', 'RRBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'CERVIX',
+'TYPE':'CellLine_Cancer',
+'LAB':'BI',
+'SEX (Male, Female, Mixed, Unknown)':'Female',
+'DONOR / SAMPLE ALIAS':'HeLa-S3',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E117.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E117.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E117.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E117.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"HSMM Skeletal Muscle Myoblasts RRBS",
+custom_annotation:['HSMM Skeletal Muscle Myoblasts', 'RRBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'MUSCLE',
+'TYPE':'CellLine',
+'LAB':'BI',
+'SEX (Male, Female, Mixed, Unknown)':'Unknown',
+'DONOR / SAMPLE ALIAS':'HSMM',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E120.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E120.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E120.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E120.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"NH-A Astrocytes RRBS",
+custom_annotation:['NH-A Astrocytes', 'RRBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'BRAIN',
+'TYPE':'CellLine',
+'LAB':'BI',
+'SEX (Male, Female, Mixed, Unknown)':'Unknown',
+'DONOR / SAMPLE ALIAS':'NH-A',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E125.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E125.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E125.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E125.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"H1 Cell Line RRBS",
+custom_annotation:['H1 Cell Line', 'RRBS'],
+mode:"show",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'ESC',
+'TYPE':'CellLine',
+'LAB':'BI;UCSD;UCSF-UBC',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'CL',
+'SEX (Male, Female, Mixed, Unknown)':'Male',
+'SOLID / LIQUID':'NA',
+'Ethnicity':'NA',
+'Single Donor (SD) /Composite (C)':'SD',
+'DONOR / SAMPLE ALIAS':'56;68;69;27276;27277;35081;35082;35083;CDI-01;H1-07;H1-09;H1-10;H1-12;H1-13;hESC-01;HS0995;HS0998-1;HS1032-1;HS1345-1;HS1346-1;HS1347-1',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E003.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E003.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E003.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E003.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"H9 Derived Neuron Cultured Cells RRBS",
+custom_annotation:['H9 Derived Neuron Cultured Cells', 'RRBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'ESC_DERIVED',
+'TYPE':'CellLineDerived',
+'LAB':'BI',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'CL',
+'SEX (Male, Female, Mixed, Unknown)':'Female',
+'SOLID / LIQUID':'NA',
+'Ethnicity':'NA',
+'Single Donor (SD) /Composite (C)':'SD',
+'DONOR / SAMPLE ALIAS':'113',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E010.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E010.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E010.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E010.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"HUES6 Cell Line RRBS",
+custom_annotation:['HUES6 Cell Line', 'RRBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'ESC',
+'TYPE':'CellLine',
+'LAB':'BI',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'CL',
+'SEX (Male, Female, Mixed, Unknown)':'Female',
+'SOLID / LIQUID':'NA',
+'Ethnicity':'NA',
+'Single Donor (SD) /Composite (C)':'SD',
+'DONOR / SAMPLE ALIAS':'199;207',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E015.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E015.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E015.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E015.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"iPS-20b Cell Line RRBS",
+custom_annotation:['iPS-20b Cell Line', 'RRBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'IPSC',
+'TYPE':'CellLine',
+'LAB':'BI',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'CL',
+'SEX (Male, Female, Mixed, Unknown)':'Male',
+'SOLID / LIQUID':'NA',
+'Ethnicity':'NA',
+'Single Donor (SD) /Composite (C)':'SD',
+'DONOR / SAMPLE ALIAS':'66;67;BioSam_174',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E020.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E020.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E020.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E020.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"CD19 Primary Cells Cord BI RRBS",
+custom_annotation:['CD19 Primary Cells Cord BI', 'RRBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'BLOOD',
+'TYPE':'PrimaryCell',
+'LAB':'BI',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'Fetus (GW unknown)',
+'SEX (Male, Female, Mixed, Unknown)':'Mixed',
+'SOLID / LIQUID':'LIQUID',
+'Ethnicity':'Unknown',
+'Single Donor (SD) /Composite (C)':'C',
+'DONOR / SAMPLE ALIAS':'130;CD19_12/22/08;CD19_12/29/08;CD19_2/20/09;CD19_6/26/08;CD19_8/1/08',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E031.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E031.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E031.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E031.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"Chondrocytes from Bone Marrow Derived Mesenchymal Stem Cell Cultured Cells RRBS",
+custom_annotation:['Chondrocytes from Bone Marrow Derived Mesenchymal Stem Cell Cultured Cells', 'RRBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'STROMAL_CONNECTIVE',
+'TYPE':'PrimaryCell',
+'LAB':'BI',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'Unknown',
+'SEX (Male, Female, Mixed, Unknown)':'Unknown',
+'SOLID / LIQUID':'SOLID',
+'Ethnicity':'Unknown',
+'Single Donor (SD) /Composite (C)':'C',
+'DONOR / SAMPLE ALIAS':'57;58;59;60',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E049.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E049.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E049.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E049.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"Brain Angular Gyrus RRBS",
+custom_annotation:['Brain Angular Gyrus', 'RRBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'BRAIN',
+'TYPE':'PrimaryTissue',
+'LAB':'BI',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'75Y, 81Y',
+'SEX (Male, Female, Mixed, Unknown)':'Mixed',
+'SOLID / LIQUID':'SOLID',
+'Ethnicity':'Unknown',
+'Single Donor (SD) /Composite (C)':'C',
+'DONOR / SAMPLE ALIAS':'112;149',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E067.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E067.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E067.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E067.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"Brain Inferior Temporal Lobe RRBS",
+custom_annotation:['Brain Inferior Temporal Lobe', 'RRBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'BRAIN',
+'TYPE':'PrimaryTissue',
+'LAB':'BI',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'75Y, 81Y',
+'SEX (Male, Female, Mixed, Unknown)':'Mixed',
+'SOLID / LIQUID':'SOLID',
+'Ethnicity':'Unknown',
+'Single Donor (SD) /Composite (C)':'C',
+'DONOR / SAMPLE ALIAS':'112;149',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E072.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E072.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E072.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E072.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"Colonic Mucosa RRBS",
+custom_annotation:['Colonic Mucosa', 'RRBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'GI_COLON',
+'TYPE':'PrimaryTissue',
+'LAB':'BI',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'73Y',
+'SEX (Male, Female, Mixed, Unknown)':'Female',
+'SOLID / LIQUID':'SOLID',
+'Ethnicity':'Caucasian',
+'Single Donor (SD) /Composite (C)':'SD',
+'DONOR / SAMPLE ALIAS':'32',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E075.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E075.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E075.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E075.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"Fetal Brain Male RRBS",
+custom_annotation:['Fetal Brain Male', 'RRBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'BRAIN',
+'TYPE':'PrimaryTissue',
+'LAB':'BI',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'17GW, 17GW',
+'SEX (Male, Female, Mixed, Unknown)':'Male/Unknown',
+'SOLID / LIQUID':'SOLID',
+'Ethnicity':'Unknown',
+'Single Donor (SD) /Composite (C)':'C',
+'DONOR / SAMPLE ALIAS':'H-22510;UW_H22676',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E081.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E081.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E081.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E081.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"Pancreatic Islets RRBS",
+custom_annotation:['Pancreatic Islets', 'RRBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'PANCREAS',
+'TYPE':'PrimaryTissue',
+'LAB':'BI;UCSF-UBC',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'Unknown, Unknown, 45Y',
+'SEX (Male, Female, Mixed, Unknown)':'Male',
+'SOLID / LIQUID':'SOLID',
+'Ethnicity':'Unknown, Unknown, Caucasian',
+'Single Donor (SD) /Composite (C)':'C',
+'DONOR / SAMPLE ALIAS':'pancreatic_islets_normal_0/0/00;pancreatic_islets_normal_3/27/09;ZD4_273',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E087.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E087.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E087.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E087.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"Rectal Mucosa.Donor 31 RRBS",
+custom_annotation:['Rectal Mucosa.Donor 31', 'RRBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'GI_RECTUM',
+'TYPE':'PrimaryTissue',
+'LAB':'BI',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'61Y',
+'SEX (Male, Female, Mixed, Unknown)':'Female',
+'SOLID / LIQUID':'SOLID',
+'Ethnicity':'Caucasian',
+'Single Donor (SD) /Composite (C)':'SD',
+'DONOR / SAMPLE ALIAS':'31',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E102.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E102.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E102.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E102.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"Skeletal Muscle Female RRBS",
+custom_annotation:['Skeletal Muscle Female', 'RRBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'MUSCLE',
+'TYPE':'PrimaryTissue',
+'LAB':'BI',
+'AGE (Post Birth in YEARS/ Fetal in GESTATIONAL WEEKS/CELL LINE CL) ':'72Y',
+'SEX (Male, Female, Mixed, Unknown)':'Female',
+'SOLID / LIQUID':'SOLID',
+'Ethnicity':'Caucasian',
+'Single Donor (SD) /Composite (C)':'SD',
+'DONOR / SAMPLE ALIAS':'62',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E108.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E108.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E108.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E108.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"A549 EtOH 0.02pct Lung Carcinoma RRBS",
+custom_annotation:['A549 EtOH 0.02pct Lung Carcinoma', 'RRBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'LUNG',
+'TYPE':'CellLine_Cancer',
+'LAB':'BI',
+'SEX (Male, Female, Mixed, Unknown)':'Male',
+'DONOR / SAMPLE ALIAS':'A549',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E114.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E114.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E114.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E114.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"HepG2 Hepatocellular Carcinoma RRBS",
+custom_annotation:['HepG2 Hepatocellular Carcinoma', 'RRBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'LIVER',
+'TYPE':'CellLine_Cancer',
+'LAB':'BI',
+'SEX (Male, Female, Mixed, Unknown)':'Male',
+'DONOR / SAMPLE ALIAS':'HepG2',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E118.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E118.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E118.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E118.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"HSMMtube Skeletal Muscle Myotubes Derived from HSMM RRBS",
+custom_annotation:['HSMMtube Skeletal Muscle Myotubes Derived from HSMM', 'RRBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'MUSCLE',
+'TYPE':'CellLine',
+'LAB':'BI',
+'SEX (Male, Female, Mixed, Unknown)':'Unknown',
+'DONOR / SAMPLE ALIAS':'HSMMtube',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E121.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E121.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E121.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E121.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+
+{
+type:"methylC",
+name:"NHDF-Ad Adult Dermal Fibroblasts RRBS",
+custom_annotation:['NHDF-Ad Adult Dermal Fibroblasts', 'RRBS'],
+mode:"hide",
+height:70,
+combinestrands:false,
+scalebarheight:false,
+smoothwindow:11,
+public:true,
+details:{
+'ANATOMY':'SKIN',
+'TYPE':'CellLine',
+'LAB':'BI',
+'SEX (Male, Female, Mixed, Unknown)':'Female',
+'DONOR / SAMPLE ALIAS':'NHDF-Ad',
+"Source":"<a href='http://www.roadmapepigenomics.org/' target='_blank'>Roadmap Epigenomics Project</a>",
+},
+tracks:{
+        forward:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E126.rc.f.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E126.fm.f.bedGraph.gz'},
+                },
+        reverse:{
+                ReadDepth:{color:'#525252',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E126.rc.r.bedGraph.gz'},
+                CG:{color:'rgb(100,139,216)',bg:'#d9d9d9',url:'http://vizhub.wustl.edu/public/hg19/RoadmapFinalMethylation/RRBS/E126.fm.r.bedGraph.gz'},
+                },
+        }
+},      
+]
