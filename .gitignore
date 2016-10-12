@@ -1,0 +1,5 @@
+*.bam
+*.bai
+*.gz
+*.tbi
+*.bedGraph*
