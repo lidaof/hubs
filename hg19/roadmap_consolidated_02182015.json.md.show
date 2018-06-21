@@ -13,10 +13,10 @@
             ]
         }, 
         "vocabulary_set": {
-            "Sample": "http://vizhub.wustl.edu/metadata/human/Samples", 
-            "Donor": "http://vizhub.wustl.edu/metadata/human/Donor", 
-            "Assay": "http://vizhub.wustl.edu/metadata/Experimental_assays", 
-            "Institution": "http://vizhub.wustl.edu/metadata/Institutions", 
+            "Sample": "https://vizhub.wustl.edu/metadata/human/Samples", 
+            "Donor": "https://vizhub.wustl.edu/metadata/human/Donor", 
+            "Assay": "https://vizhub.wustl.edu/metadata/Experimental_assays", 
+            "Institution": "https://vizhub.wustl.edu/metadata/Institutions", 
             "private": {
                 "terms": {
                     "216": [
@@ -594,7 +594,7 @@
     }, 
     {
         "colorpositive": "#FF8C00", 
-        "url": "http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidated/macs2signal/pval/E017-H3K4me1.pval.signal.bigwig", 
+        "url": "https://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidated/macs2signal/pval/E017-H3K4me1.pval.signal.bigwig", 
         "fixedscale": {
             "max": 40, 
             "min": 2
@@ -610,14 +610,14 @@
         }, 
         "height": 20, 
         "mode": "full", 
-        "detail_url": "http://vizhub.wustl.edu/tD/hg19/E017", 
+        "detail_url": "https://vizhub.wustl.edu/tD/hg19/E017", 
         "type": "bigWig", 
         "public": true, 
         "name": "E017 IMR90 fetal lung fibroblasts Cell Line H3K4me1 pval signal"
     }, 
     {
         "colorpositive": "#FF8C00", 
-        "url": "http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidated/macs2signal/foldChange/E017-H3K4me1.fc.signal.bigwig", 
+        "url": "https://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidated/macs2signal/foldChange/E017-H3K4me1.fc.signal.bigwig", 
         "fixedscale": {
             "max": 40, 
             "min": 2
@@ -633,17 +633,17 @@
         }, 
         "height": 20, 
         "mode": "full", 
-        "detail_url": "http://vizhub.wustl.edu/tD/hg19/E017", 
+        "detail_url": "https://vizhub.wustl.edu/tD/hg19/E017", 
         "type": "bigWig", 
         "public": true, 
         "name": "E017 IMR90 fetal lung fibroblasts Cell Line H3K4me1 foldChange signal"
     }, 
     {
         "name": "E017 IMR90 fetal lung fibroblasts Cell Line PrimaryHMM", 
-        "url": "http://egg2.wustl.edu/roadmap/data/byFileType/chromhmmSegmentations/ChmmModels/coreMarks/jointModel/final/E017_15_coreMarks_stateno.bed.gz", 
+        "url": "https://egg2.wustl.edu/roadmap/data/byFileType/chromhmmSegmentations/ChmmModels/coreMarks/jointModel/final/E017_15_coreMarks_stateno.bed.gz", 
         "height": 15, 
         "mode": "full", 
-        "detail_url": "http://vizhub.wustl.edu/tD/hg19/E017", 
+        "detail_url": "https://vizhub.wustl.edu/tD/hg19/E017", 
         "type": "categorical", 
         "public": true, 
         "categories": {
@@ -720,10 +720,10 @@
     }, 
     {
         "name": "E017 IMR90 fetal lung fibroblasts Cell Line AuxiliaryHMM", 
-        "url": "http://egg2.wustl.edu/roadmap/data/byFileType/chromhmmSegmentations/ChmmModels/core_K27ac/jointModel/final/E017_18_core_K27ac_stateno.bed.gz", 
+        "url": "https://egg2.wustl.edu/roadmap/data/byFileType/chromhmmSegmentations/ChmmModels/core_K27ac/jointModel/final/E017_18_core_K27ac_stateno.bed.gz", 
         "height": 15, 
         "mode": "full", 
-        "detail_url": "http://vizhub.wustl.edu/tD/hg19/E017", 
+        "detail_url": "https://vizhub.wustl.edu/tD/hg19/E017", 
         "type": "categorical", 
         "public": true, 
         "categories": {
@@ -812,7 +812,7 @@
     }, 
     {
         "name": "H3K4me1 gappedPeak of IMR90 fetal lung fibroblasts Cell Line", 
-        "url": "http://egg2.wustl.edu/roadmap/data/byFileType/peaks/consolidated/gappedPeak/hammock/E017-H3K4me1.gappedPeak.hammock.gz", 
+        "url": "https://egg2.wustl.edu/roadmap/data/byFileType/peaks/consolidated/gappedPeak/hammock/E017-H3K4me1.gappedPeak.hammock.gz", 
         "scorenamelst": [
             "signal value", 
             "P value (-log10)", 
@@ -830,14 +830,14 @@
         }, 
         "showscoreidx": 0, 
         "defaultmode": "barplot", 
-        "detail_url": "http://vizhub.wustl.edu/tD/hg19/E017", 
+        "detail_url": "https://vizhub.wustl.edu/tD/hg19/E017", 
         "type": "hammock", 
         "public": true, 
         "mode": "barplot"
     }, 
     {
         "name": "H3K4me1 narrowPeak of IMR90 fetal lung fibroblasts Cell Line", 
-        "url": "http://egg2.wustl.edu/roadmap/data/byFileType/peaks/consolidated/narrowPeak/hammock/E017-H3K4me1.narrowPeak.hammock.gz", 
+        "url": "https://egg2.wustl.edu/roadmap/data/byFileType/peaks/consolidated/narrowPeak/hammock/E017-H3K4me1.narrowPeak.hammock.gz", 
         "scorenamelst": [
             "signal value", 
             "P value (-log10)", 
@@ -856,7 +856,7 @@
         "showscoreidx": 0, 
         "defaultmode": "barplot", 
         "strokecolor": "#FF0000", 
-        "detail_url": "http://vizhub.wustl.edu/tD/hg19/E017", 
+        "detail_url": "https://vizhub.wustl.edu/tD/hg19/E017", 
         "type": "hammock", 
         "public": true, 
         "mode": "barplot"

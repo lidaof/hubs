@@ -3,3 +3,5 @@
 *.gz
 *.tbi
 *.bedGraph*
+*.2bit
+*.bb

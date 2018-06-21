@@ -1,13 +1,13 @@
 [
 {
     type:"bed",
-    url:"http://vizhub.wustl.edu/public/hg18/fimo_motif/fimo.hg18.jaspar_core-0.1.gz",
+    url:"https://vizhub.wustl.edu/public/hg18/fimo_motif/fimo.hg18.jaspar_core-0.1.gz",
     name:"Fimo hg18 Jaspar",mode:"full",
     boxcolor:"#006600",textcolor:"#000000",
 },
 {
     type:"bed",
-    url:"http://vizhub.wustl.edu/public/hg18/fimo_motif/fimo.hg18.transfac-0.1.gz",
+    url:"https://vizhub.wustl.edu/public/hg18/fimo_motif/fimo.hg18.transfac-0.1.gz",
     name:"Fimo hg18 Transfac",mode:"full",
     boxcolor:"#006600",textcolor:"#000000",
 },
